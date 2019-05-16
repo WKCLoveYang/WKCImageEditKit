@@ -163,7 +163,7 @@ cutMaskColor | UIColor | 裁剪区域的蒙板颜色
 
 如果要只单独使用某个功能,可以单独将其提出. 具体的功能分类如下：
 
-```swift
+```
 #import "WKCTextItemView.h" // Text
 #import "UIImage+Resize.h" // Resize
 #import "WKCToneCurveView.h" //WKCToneCurveView

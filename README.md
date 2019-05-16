@@ -92,6 +92,101 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
   属性 | 类型 | 含义 
   ------------- | ------------- | -------------
   stickerImage | UIImage | 贴图, 赋值及增加一个贴图
+  stickerRorationImage | UIImage | 旋转按钮Icon
+  stickerDeleteImage | UIImage | 删除按钮Icon
+  stickerLeftBottomImage | UIImage | 左下角按钮Icon
+  stickerRightTopImage | UIImage | 右下角按钮Icon
+  stickerIsBorderContinue | BOOL | 是否锯齿
+  stickerBorderWidth | CGFloat | 边框宽度
+  stickerBorderColor | UIColor | 边框颜色
+  stickerMinScale | CGFloat | 最小比例, 默认0.5
+  stickerMaxScale | CGFloat | 最大比例, 默认2.0
+  stickerLimitCount | NSInteger | 最多可以有几个贴纸, 默认5
+  
+  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/sticker.png).
+  
+  ### Draw(画笔)
+  
+  属性 | 类型 | 含义 
+  ------------- | ------------- | -------------
+  drawCouldUse | BOOL | 是否开启画笔功能
+  drawLineColor | UIColor | 画笔颜色
+  drawLineWidth | CGFloat | 画笔宽度
+  
+  ```swift 
+  - (void)drawClear; //清屏draw
+  - (void)drawRevoke; //撤销
+  - (void)drawErase; //擦除功能开启
+```
+
+![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/draw.png).
+
+### ToneCurve(颜色曲线)
+
+属性 | 类型 | 含义 
+------------- | ------------- | -------------
+toneCouldUse | BOOL | 是否开启ToneCurve功能
+toneGridColor | UIColor | 网格颜色, 默认黑色
+toneGridWidth | CGFloat | 网格宽度, 默认1
+tonePointColor | UIColor | 点颜色, 默认黑色
+toneLineColor | UIColor | 线框颜色
+toneLineWidth | CGFloat | 线框宽度
+
+![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/tone.png).
+
+### Cut(裁剪)
+
+属性 | 类型 | 含义 
+------------- | ------------- | -------------
+cutCouldUse | BOOL | 是否开启cut功能
+cutNeedScaleCrop | BOOL | 是否需要按比例裁剪
+cutShowMidLines | BOOL | 是否需要展示四边中间的凸起
+cutShowCrossLines | BOOL | 是否显示交叉线
+cutCornerBorderInImage | BOOL | 边框的四个角是否可以超出图片显示
+cutCropAspectRatio | CGFloat | 边框的颜色
+cutCropAreaBorderLineColor | UIColor | 边框的颜色
+cutCropAreaBorderLineWidth | CGFloat | 边框的线宽
+cutCropAreaCornerLineColor | UIColor | 边框四个角的颜色
+cutCropAreaCornerLineWidth | CGFloat | 边框四个角的线宽
+cutCropAreaCornerWidth | CGFloat | 边框角横边的长度
+cutCropAreaCornerHeight | CGFloat | 边框角竖边的长度
+cutMinSpace | CGFloat | 相邻角之间的最小距离
+cutCropAreaCrossLineWidth | CGFloat | 交叉线的宽度
+cutCropAreaCrossLineWidth | UIColor | 交叉线的颜色
+cutCropAreaMidLineWidth | CGFloat | 边框每条边中间线的长度
+cutCropAreaMidLineHeight | CGFloat | 边框每条边中间线的线宽
+cutCropAreaMidLineColor | UIColor | 边框每条边中间线的颜色
+cutMaskColor | UIColor | 裁剪区域的蒙板颜色
+
+![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/cut.png).
+
+
+如果要只单独使用某个功能,可以单独将其提出. 具体的功能分类如下：
+
+```swift
+#import "WKCTextItemView.h" // Text
+#import "UIImage+Resize.h" // Resize
+#import "WKCToneCurveView.h" //WKCToneCurveView
+#import "UIImage+Adjustment.h" //Adjustment
+#import "UIImage+Flip.h" //Flip
+#import "UIImage+Filter.h" //Filter
+#import "WKCCutView.h" //Cut
+#import "WKCStickerItemView.h" //Sticker
+#import "WKCDrawContentView.h" //Draw
+````
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
   
   
   

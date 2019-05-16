@@ -1,0 +1,1 @@
+../../../WKCImageEditKit/WKCImageEditKit/ToneCurve/WKCSplineInterpolator.h

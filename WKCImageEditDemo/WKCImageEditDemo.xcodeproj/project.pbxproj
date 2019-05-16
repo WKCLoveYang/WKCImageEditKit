@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78E0253F148C2241B5DB0F65 /* libPods-default-WKCImageEditDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F688A9A6DCBC616130A382FA /* libPods-default-WKCImageEditDemo.a */; };
+		913CED1D228D339C008DB451 /* WKCFilterItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 913CED1C228D339C008DB451 /* WKCFilterItemCell.m */; };
+		9168A74C228BBACC0044E744 /* WKCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A74B228BBACC0044E744 /* WKCAppDelegate.m */; };
+		9168A754228BBACF0044E744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9168A753228BBACF0044E744 /* Assets.xcassets */; };
+		9168A757228BBACF0044E744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9168A755228BBACF0044E744 /* LaunchScreen.storyboard */; };
+		9168A75A228BBACF0044E744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A759228BBACF0044E744 /* main.m */; };
+		9168A76B228BBC980044E744 /* WKCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A765228BBC980044E744 /* WKCViewController.m */; };
+		9168A76C228BBC980044E744 /* WKCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A768228BBC980044E744 /* WKCNavigationViewController.m */; };
+		9168A770228BBD130044E744 /* WKCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A76F228BBD130044E744 /* WKCHomeViewController.m */; };
+		9168A775228BBD3A0044E744 /* WKCLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A773228BBD3A0044E744 /* WKCLaunchViewController.m */; };
+		9168A776228BBD3A0044E744 /* WKCLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9168A774228BBD3A0044E744 /* WKCLaunchViewController.xib */; };
+		9168A77A228BC6270044E744 /* WKCHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A779228BC6270044E744 /* WKCHomeItemCell.m */; };
+		9168A77E228BD2B60044E744 /* UIView+SLCShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A77C228BD2B60044E744 /* UIView+SLCShadow.m */; };
+		9168A783228BDDF50044E744 /* WKCTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A782228BDDF50044E744 /* WKCTextViewController.m */; };
+		9168A803228BE39F0044E744 /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A801228BE39F0044E744 /* UIColor+Common.m */; };
+		9168A807228BE7BD0044E744 /* WKCResizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A806228BE7BD0044E744 /* WKCResizeViewController.m */; };
+		9168A80B228BEB3F0044E744 /* WKCToneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A80A228BEB3F0044E744 /* WKCToneViewController.m */; };
+		9168A80F228BED4E0044E744 /* WKCAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A80E228BED4E0044E744 /* WKCAdjustmentViewController.m */; };
+		9168A813228BF6DA0044E744 /* WKCFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A812228BF6DA0044E744 /* WKCFlipViewController.m */; };
+		9168A817228BF9640044E744 /* WKCCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A816228BF9640044E744 /* WKCCutViewController.m */; };
+		9168A82D228C03E20044E744 /* WKCFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A82C228C03E20044E744 /* WKCFilterViewController.m */; };
+		9168A831228C04350044E744 /* WKCStickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A830228C04350044E744 /* WKCStickerViewController.m */; };
+		9168A835228C04790044E744 /* WKCDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A834228C04790044E744 /* WKCDrawViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DFC489252BAB094A247FFAF /* Pods-default-WKCImageEditDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-WKCImageEditDemo.debug.xcconfig"; path = "Target Support Files/Pods-default-WKCImageEditDemo/Pods-default-WKCImageEditDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		913CED1B228D339C008DB451 /* WKCFilterItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCFilterItemCell.h; sourceTree = "<group>"; };
+		913CED1C228D339C008DB451 /* WKCFilterItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCFilterItemCell.m; sourceTree = "<group>"; };
+		9168A747228BBACC0044E744 /* WKCImageEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKCImageEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9168A74A228BBACC0044E744 /* WKCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCAppDelegate.h; sourceTree = "<group>"; };
+		9168A74B228BBACC0044E744 /* WKCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCAppDelegate.m; sourceTree = "<group>"; };
+		9168A753228BBACF0044E744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9168A756228BBACF0044E744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9168A758228BBACF0044E744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9168A759228BBACF0044E744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9168A763228BBC980044E744 /* WKCNavigationControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCNavigationControllerProtocol.h; sourceTree = "<group>"; };
+		9168A765228BBC980044E744 /* WKCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCViewController.m; sourceTree = "<group>"; };
+		9168A766228BBC980044E744 /* WKCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCNavigationViewController.h; sourceTree = "<group>"; };
+		9168A768228BBC980044E744 /* WKCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCNavigationViewController.m; sourceTree = "<group>"; };
+		9168A769228BBC980044E744 /* WKCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCViewController.h; sourceTree = "<group>"; };
+		9168A76E228BBD130044E744 /* WKCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCHomeViewController.h; sourceTree = "<group>"; };
+		9168A76F228BBD130044E744 /* WKCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCHomeViewController.m; sourceTree = "<group>"; };
+		9168A772228BBD3A0044E744 /* WKCLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCLaunchViewController.h; sourceTree = "<group>"; };
+		9168A773228BBD3A0044E744 /* WKCLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCLaunchViewController.m; sourceTree = "<group>"; };
+		9168A774228BBD3A0044E744 /* WKCLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKCLaunchViewController.xib; sourceTree = "<group>"; };
+		9168A778228BC6270044E744 /* WKCHomeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCHomeItemCell.h; sourceTree = "<group>"; };
+		9168A779228BC6270044E744 /* WKCHomeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCHomeItemCell.m; sourceTree = "<group>"; };
+		9168A77C228BD2B60044E744 /* UIView+SLCShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLCShadow.m"; sourceTree = "<group>"; };
+		9168A77D228BD2B60044E744 /* UIView+SLCShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLCShadow.h"; sourceTree = "<group>"; };
+		9168A781228BDDF50044E744 /* WKCTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCTextViewController.h; sourceTree = "<group>"; };
+		9168A782228BDDF50044E744 /* WKCTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCTextViewController.m; sourceTree = "<group>"; };
+		9168A801228BE39F0044E744 /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
+		9168A802228BE39F0044E744 /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
+		9168A805228BE7BD0044E744 /* WKCResizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCResizeViewController.h; sourceTree = "<group>"; };
+		9168A806228BE7BD0044E744 /* WKCResizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCResizeViewController.m; sourceTree = "<group>"; };
+		9168A809228BEB3F0044E744 /* WKCToneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCToneViewController.h; sourceTree = "<group>"; };
+		9168A80A228BEB3F0044E744 /* WKCToneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCToneViewController.m; sourceTree = "<group>"; };
+		9168A80D228BED4E0044E744 /* WKCAdjustmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCAdjustmentViewController.h; sourceTree = "<group>"; };
+		9168A80E228BED4E0044E744 /* WKCAdjustmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCAdjustmentViewController.m; sourceTree = "<group>"; };
+		9168A811228BF6DA0044E744 /* WKCFlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCFlipViewController.h; sourceTree = "<group>"; };
+		9168A812228BF6DA0044E744 /* WKCFlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCFlipViewController.m; sourceTree = "<group>"; };
+		9168A815228BF9640044E744 /* WKCCutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCCutViewController.h; sourceTree = "<group>"; };
+		9168A816228BF9640044E744 /* WKCCutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCCutViewController.m; sourceTree = "<group>"; };
+		9168A82B228C03E20044E744 /* WKCFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCFilterViewController.h; sourceTree = "<group>"; };
+		9168A82C228C03E20044E744 /* WKCFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCFilterViewController.m; sourceTree = "<group>"; };
+		9168A82F228C04350044E744 /* WKCStickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCStickerViewController.h; sourceTree = "<group>"; };
+		9168A830228C04350044E744 /* WKCStickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCStickerViewController.m; sourceTree = "<group>"; };
+		9168A833228C04790044E744 /* WKCDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCDrawViewController.h; sourceTree = "<group>"; };
+		9168A834228C04790044E744 /* WKCDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCDrawViewController.m; sourceTree = "<group>"; };
+		EC733A066B26D7B911D448F1 /* Pods-default-WKCImageEditDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-WKCImageEditDemo.release.xcconfig"; path = "Target Support Files/Pods-default-WKCImageEditDemo/Pods-default-WKCImageEditDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F688A9A6DCBC616130A382FA /* libPods-default-WKCImageEditDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-default-WKCImageEditDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9168A744228BBACC0044E744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E0253F148C2241B5DB0F65 /* libPods-default-WKCImageEditDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9168A73E228BBACC0044E744 = {
+			isa = PBXGroup;
+			children = (
+				9168A749228BBACC0044E744 /* WKCImageEditDemo */,
+				9168A748228BBACC0044E744 /* Products */,
+				9BA06E293CE92E9F9457EB43 /* Pods */,
+				D030A822EAA1910C10AEB76C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9168A748228BBACC0044E744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9168A747228BBACC0044E744 /* WKCImageEditDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9168A749228BBACC0044E744 /* WKCImageEditDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9168A77B228BD1BE0044E744 /* Category */,
+				9168A761228BBC900044E744 /* Controllers */,
+				9168A760228BBB4A0044E744 /* Supports */,
+			);
+			path = WKCImageEditDemo;
+			sourceTree = "<group>";
+		};
+		9168A760228BBB4A0044E744 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				9168A74A228BBACC0044E744 /* WKCAppDelegate.h */,
+				9168A74B228BBACC0044E744 /* WKCAppDelegate.m */,
+				9168A753228BBACF0044E744 /* Assets.xcassets */,
+				9168A755228BBACF0044E744 /* LaunchScreen.storyboard */,
+				9168A758228BBACF0044E744 /* Info.plist */,
+				9168A759228BBACF0044E744 /* main.m */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		9168A761228BBC900044E744 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9168A780228BDDD90044E744 /* ItemController */,
+				9168A771228BBD1F0044E744 /* LaunchController */,
+				9168A76D228BBCFA0044E744 /* HomeController */,
+				9168A762228BBC980044E744 /* BaseController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9168A762228BBC980044E744 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A763228BBC980044E744 /* WKCNavigationControllerProtocol.h */,
+				9168A766228BBC980044E744 /* WKCNavigationViewController.h */,
+				9168A768228BBC980044E744 /* WKCNavigationViewController.m */,
+				9168A769228BBC980044E744 /* WKCViewController.h */,
+				9168A765228BBC980044E744 /* WKCViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		9168A76D228BBCFA0044E744 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A777228BC60D0044E744 /* View */,
+				9168A76E228BBD130044E744 /* WKCHomeViewController.h */,
+				9168A76F228BBD130044E744 /* WKCHomeViewController.m */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		9168A771228BBD1F0044E744 /* LaunchController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A772228BBD3A0044E744 /* WKCLaunchViewController.h */,
+				9168A773228BBD3A0044E744 /* WKCLaunchViewController.m */,
+				9168A774228BBD3A0044E744 /* WKCLaunchViewController.xib */,
+			);
+			path = LaunchController;
+			sourceTree = "<group>";
+		};
+		9168A777228BC60D0044E744 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9168A778228BC6270044E744 /* WKCHomeItemCell.h */,
+				9168A779228BC6270044E744 /* WKCHomeItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9168A77B228BD1BE0044E744 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9168A77D228BD2B60044E744 /* UIView+SLCShadow.h */,
+				9168A77C228BD2B60044E744 /* UIView+SLCShadow.m */,
+				9168A802228BE39F0044E744 /* UIColor+Common.h */,
+				9168A801228BE39F0044E744 /* UIColor+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9168A77F228BDDCF0044E744 /* TextController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A781228BDDF50044E744 /* WKCTextViewController.h */,
+				9168A782228BDDF50044E744 /* WKCTextViewController.m */,
+			);
+			path = TextController;
+			sourceTree = "<group>";
+		};
+		9168A780228BDDD90044E744 /* ItemController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A832228C046A0044E744 /* DrawController */,
+				9168A82E228C041D0044E744 /* StickerController */,
+				9168A82A228C03D50044E744 /* FilterController */,
+				9168A814228BF9580044E744 /* CutController */,
+				9168A810228BF6CD0044E744 /* FlipController */,
+				9168A80C228BED3D0044E744 /* AdjustController */,
+				9168A808228BEB290044E744 /* ToneController */,
+				9168A804228BE7AD0044E744 /* ResizeController */,
+				9168A77F228BDDCF0044E744 /* TextController */,
+			);
+			path = ItemController;
+			sourceTree = "<group>";
+		};
+		9168A804228BE7AD0044E744 /* ResizeController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A805228BE7BD0044E744 /* WKCResizeViewController.h */,
+				9168A806228BE7BD0044E744 /* WKCResizeViewController.m */,
+			);
+			path = ResizeController;
+			sourceTree = "<group>";
+		};
+		9168A808228BEB290044E744 /* ToneController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A809228BEB3F0044E744 /* WKCToneViewController.h */,
+				9168A80A228BEB3F0044E744 /* WKCToneViewController.m */,
+			);
+			path = ToneController;
+			sourceTree = "<group>";
+		};
+		9168A80C228BED3D0044E744 /* AdjustController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A80D228BED4E0044E744 /* WKCAdjustmentViewController.h */,
+				9168A80E228BED4E0044E744 /* WKCAdjustmentViewController.m */,
+			);
+			path = AdjustController;
+			sourceTree = "<group>";
+		};
+		9168A810228BF6CD0044E744 /* FlipController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A811228BF6DA0044E744 /* WKCFlipViewController.h */,
+				9168A812228BF6DA0044E744 /* WKCFlipViewController.m */,
+			);
+			path = FlipController;
+			sourceTree = "<group>";
+		};
+		9168A814228BF9580044E744 /* CutController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A815228BF9640044E744 /* WKCCutViewController.h */,
+				9168A816228BF9640044E744 /* WKCCutViewController.m */,
+			);
+			path = CutController;
+			sourceTree = "<group>";
+		};
+		9168A82A228C03D50044E744 /* FilterController */ = {
+			isa = PBXGroup;
+			children = (
+				913CED1B228D339C008DB451 /* WKCFilterItemCell.h */,
+				913CED1C228D339C008DB451 /* WKCFilterItemCell.m */,
+				9168A82B228C03E20044E744 /* WKCFilterViewController.h */,
+				9168A82C228C03E20044E744 /* WKCFilterViewController.m */,
+			);
+			path = FilterController;
+			sourceTree = "<group>";
+		};
+		9168A82E228C041D0044E744 /* StickerController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A82F228C04350044E744 /* WKCStickerViewController.h */,
+				9168A830228C04350044E744 /* WKCStickerViewController.m */,
+			);
+			path = StickerController;
+			sourceTree = "<group>";
+		};
+		9168A832228C046A0044E744 /* DrawController */ = {
+			isa = PBXGroup;
+			children = (
+				9168A833228C04790044E744 /* WKCDrawViewController.h */,
+				9168A834228C04790044E744 /* WKCDrawViewController.m */,
+			);
+			path = DrawController;
+			sourceTree = "<group>";
+		};
+		9BA06E293CE92E9F9457EB43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC489252BAB094A247FFAF /* Pods-default-WKCImageEditDemo.debug.xcconfig */,
+				EC733A066B26D7B911D448F1 /* Pods-default-WKCImageEditDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D030A822EAA1910C10AEB76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F688A9A6DCBC616130A382FA /* libPods-default-WKCImageEditDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9168A746228BBACC0044E744 /* WKCImageEditDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9168A75D228BBACF0044E744 /* Build configuration list for PBXNativeTarget "WKCImageEditDemo" */;
+			buildPhases = (
+				28973F0B77CFA7DEA5F75012 /* [CP] Check Pods Manifest.lock */,
+				9168A743228BBACC0044E744 /* Sources */,
+				9168A744228BBACC0044E744 /* Frameworks */,
+				9168A745228BBACC0044E744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKCImageEditDemo;
+			productName = WKCImageEditDemo;
+			productReference = 9168A747228BBACC0044E744 /* WKCImageEditDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9168A73F228BBACC0044E744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = FaceMoji;
+				TargetAttributes = {
+					9168A746228BBACC0044E744 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9168A742228BBACC0044E744 /* Build configuration list for PBXProject "WKCImageEditDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9168A73E228BBACC0044E744;
+			productRefGroup = 9168A748228BBACC0044E744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9168A746228BBACC0044E744 /* WKCImageEditDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9168A745228BBACC0044E744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9168A757228BBACF0044E744 /* LaunchScreen.storyboard in Resources */,
+				9168A776228BBD3A0044E744 /* WKCLaunchViewController.xib in Resources */,
+				9168A754228BBACF0044E744 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28973F0B77CFA7DEA5F75012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-default-WKCImageEditDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9168A743228BBACC0044E744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9168A80B228BEB3F0044E744 /* WKCToneViewController.m in Sources */,
+				9168A75A228BBACF0044E744 /* main.m in Sources */,
+				9168A817228BF9640044E744 /* WKCCutViewController.m in Sources */,
+				9168A813228BF6DA0044E744 /* WKCFlipViewController.m in Sources */,
+				9168A803228BE39F0044E744 /* UIColor+Common.m in Sources */,
+				913CED1D228D339C008DB451 /* WKCFilterItemCell.m in Sources */,
+				9168A77E228BD2B60044E744 /* UIView+SLCShadow.m in Sources */,
+				9168A775228BBD3A0044E744 /* WKCLaunchViewController.m in Sources */,
+				9168A80F228BED4E0044E744 /* WKCAdjustmentViewController.m in Sources */,
+				9168A831228C04350044E744 /* WKCStickerViewController.m in Sources */,
+				9168A76C228BBC980044E744 /* WKCNavigationViewController.m in Sources */,
+				9168A82D228C03E20044E744 /* WKCFilterViewController.m in Sources */,
+				9168A770228BBD130044E744 /* WKCHomeViewController.m in Sources */,
+				9168A77A228BC6270044E744 /* WKCHomeItemCell.m in Sources */,
+				9168A76B228BBC980044E744 /* WKCViewController.m in Sources */,
+				9168A74C228BBACC0044E744 /* WKCAppDelegate.m in Sources */,
+				9168A835228C04790044E744 /* WKCDrawViewController.m in Sources */,
+				9168A783228BDDF50044E744 /* WKCTextViewController.m in Sources */,
+				9168A807228BE7BD0044E744 /* WKCResizeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9168A755228BBACF0044E744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9168A756228BBACF0044E744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9168A75B228BBACF0044E744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9168A75C228BBACF0044E744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9168A75E228BBACF0044E744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFC489252BAB094A247FFAF /* Pods-default-WKCImageEditDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZSX74S9UM;
+				INFOPLIST_FILE = "$(SRCROOT)/WKCImageEditDemo/Supports/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceMoji.WKCImageEditDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9168A75F228BBACF0044E744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC733A066B26D7B911D448F1 /* Pods-default-WKCImageEditDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZSX74S9UM;
+				INFOPLIST_FILE = "$(SRCROOT)/WKCImageEditDemo/Supports/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceMoji.WKCImageEditDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9168A742228BBACC0044E744 /* Build configuration list for PBXProject "WKCImageEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9168A75B228BBACF0044E744 /* Debug */,
+				9168A75C228BBACF0044E744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9168A75D228BBACF0044E744 /* Build configuration list for PBXNativeTarget "WKCImageEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9168A75E228BBACF0044E744 /* Debug */,
+				9168A75F228BBACF0044E744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9168A73F228BBACC0044E744 /* Project object */;
+}

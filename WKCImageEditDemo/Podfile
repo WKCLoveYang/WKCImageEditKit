@@ -1,0 +1,16 @@
+platform :ios, '10.0'
+
+inhibit_all_warnings!
+
+def shared_pods
+
+
+pod 'Masonry'
+pod 'WKCImageEditKit'
+
+end
+
+abstract_target 'default' do
+shared_pods
+target 'WKCImageEditDemo'
+end

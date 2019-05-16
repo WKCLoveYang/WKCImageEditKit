@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - WKCImageEditKit (1.1.1)
+
+DEPENDENCIES:
+  - Masonry
+  - WKCImageEditKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - WKCImageEditKit
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  WKCImageEditKit: b002c3663b21139335b74b6753d5f2ea24ad51c9
+
+PODFILE CHECKSUM: fcc0b2fa836b5608c5faccd0115c4a206dfba831
+
+COCOAPODS: 1.7.0.beta.3

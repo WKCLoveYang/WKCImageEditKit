@@ -17,10 +17,14 @@
     CIImage *ciImage = [[CIImage alloc] initWithImage:self];
     CIFilter *filter = [CIFilter filterWithName:filters[type] keysAndValues:kCIInputImageKey, ciImage, nil];
     [filter setDefaults];
+    CIContext *context = [CIContext contextWithOptions:nil];
     CIImage *outputImage = [filter outputImage];
-    UIImage *effetImage = [UIImage imageWithCIImage:outputImage];
+    CGImageRef imageRef = [context createCGImage:outputImage fromRect:outputImage.extent];
+    UIImage *effetImage = [UIImage imageWithCGImage:imageRef];
+    CGImageRelease(imageRef);
     return effetImage;
 }
 
 
 @end
+

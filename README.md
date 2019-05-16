@@ -8,8 +8,12 @@
 
 ## 属性
 
-Content(主视图) |
------------------------------------------------------------------------------------------ | 
+### Content(主视图)
+
 属性 | 类型 | 含义 |
 ------------- | ------------- | -------------
+contentImage | UIImage | 待编辑的图片
+contentImageView | UIImageView | 待编辑的图片视图(只读)
+currentImage | UIImage | 当前编辑后的图片
+isBoundaryClip | BOOL | 超出边界是否裁剪, 默认YES
 

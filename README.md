@@ -6,7 +6,7 @@
 
 ` pod 'WKCImageEditKit'`
 
-## 属性
+## 属性、方法
 
 ### Content(主视图)
 
@@ -44,3 +44,50 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
 - (void)refreshTextString:(NSAttributedString *)textString;
 ```
 
+ ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/text.png).
+ 
+ 
+ ### Resize(尺寸调整)
+ 
+ 属性 | 类型 | 含义 
+ ------------- | ------------- | -------------
+ resizeImageSize | CGSize | 要更改的size
+ 
+  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/resize.png).
+  
+  ### Adjustment(曝光、亮度等调节)
+  
+  属性 | 类型 | 含义 
+  ------------- | ------------- | -------------
+  adjustmentExposure | CGFloat | 曝光(-1,1), 默认0
+  adjustmentBrightness | CGFloat | 亮度(-1,1), 默认0
+  adjustmentContrast | CGFloat | 对比度(0,4), 默认1
+  adjustmentSaturation | CGFloat | 饱和度(0,2), 默认1
+  adjustmentIntensity | CGFloat | 色温(0,1), 默认1
+  adjustmentAngle | CGFloat | 色调(-3.14,3.14), 默认0
+  adjustmentBlur | CGFloat | 模糊(0,100), 默认10
+  adjustmentShadow | CGFloat | 阴影高亮(0.3,1), 默认1
+  
+  ### Flip(翻转)
+  
+  ```swift
+  - (void)flipFixOrientation; // 修正方向
+  - (void)flipVertical; //垂直方向翻转
+  - (void)flipHorizontal; //水平方向翻转
+  - (void)flipByDegrees:(CGFloat)degrees; // 按角度旋转 例如 90
+```
+
+  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/flip.png).
+  
+  ### Filter(滤镜)
+  
+  ```swift
+  - (void)filterWithType:(UIImageFilterType)type;
+``` 
+  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/filter.png).
+  
+  
+  
+  
+  
+   

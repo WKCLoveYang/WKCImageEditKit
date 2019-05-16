@@ -87,6 +87,16 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
   ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/filter.png).
   
   
+  ### Sticker(贴纸)
+  
+  属性 | 类型 | 含义 
+  ------------- | ------------- | -------------
+  stickerImage | UIImage | 贴图, 赋值及增加一个贴图
+  
+  
+  
+  
+  
   
   
   

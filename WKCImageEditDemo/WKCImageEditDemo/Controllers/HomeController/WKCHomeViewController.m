@@ -19,11 +19,12 @@
 #import "WKCFilterViewController.h"
 #import "WKCStickerViewController.h"
 #import "WKCDrawViewController.h"
+#import "WKCBlendViewController.h"
 
 
 NSArray <NSString *>* WKCHomeIcons(void)
 {
-    return @[@"text", @"resize" ,@"tone", @"adjust", @"flip", @"filter",@"cut", @"sticker" ,@"draw"];
+    return @[@"text", @"resize" ,@"tone", @"adjust", @"flip", @"filter",@"cut", @"sticker" ,@"draw", @"blend"];
 }
 
 typedef NS_ENUM(NSInteger, WKCImageEditType) {
@@ -35,7 +36,8 @@ typedef NS_ENUM(NSInteger, WKCImageEditType) {
     WKCImageEditTypeFilter,
     WKCImageEditTypeCut,
     WKCImageEditTypeSticker,
-    WKCImageEditTypeDraw
+    WKCImageEditTypeDraw,
+    WKCImageEditTypeBlend
 };
 
 @interface WKCHomeViewController ()
@@ -63,7 +65,8 @@ UICollectionViewDelegateFlowLayout>
                     @(WKCImageEditTypeFilter),
                     @(WKCImageEditTypeCut),
                     @(WKCImageEditTypeSticker),
-                    @(WKCImageEditTypeDraw)];
+                    @(WKCImageEditTypeDraw),
+                    @(WKCImageEditTypeBlend)];
     
     [self.view addSubview:self.collectionView];
     
@@ -159,6 +162,14 @@ UICollectionViewDelegateFlowLayout>
         {
             WKCDrawViewController * drawVC = [[WKCDrawViewController alloc] init];
             [self.navigationController pushViewController:drawVC
+                                                 animated:YES];
+        }
+            break;
+            
+        case WKCImageEditTypeBlend:
+        {
+            WKCBlendViewController * blendVC = [[WKCBlendViewController alloc] init];
+            [self.navigationController pushViewController:blendVC
                                                  animated:YES];
         }
             break;

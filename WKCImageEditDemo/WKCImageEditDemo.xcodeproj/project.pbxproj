@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		78E0253F148C2241B5DB0F65 /* libPods-default-WKCImageEditDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F688A9A6DCBC616130A382FA /* libPods-default-WKCImageEditDemo.a */; };
 		913CED1D228D339C008DB451 /* WKCFilterItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 913CED1C228D339C008DB451 /* WKCFilterItemCell.m */; };
+		91466BC0228EE2290013F92C /* WKCBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91466BBF228EE2290013F92C /* WKCBlendViewController.m */; };
 		9168A74C228BBACC0044E744 /* WKCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9168A74B228BBACC0044E744 /* WKCAppDelegate.m */; };
 		9168A754228BBACF0044E744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9168A753228BBACF0044E744 /* Assets.xcassets */; };
 		9168A757228BBACF0044E744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9168A755228BBACF0044E744 /* LaunchScreen.storyboard */; };
@@ -36,6 +37,8 @@
 		4DFC489252BAB094A247FFAF /* Pods-default-WKCImageEditDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-default-WKCImageEditDemo.debug.xcconfig"; path = "Target Support Files/Pods-default-WKCImageEditDemo/Pods-default-WKCImageEditDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		913CED1B228D339C008DB451 /* WKCFilterItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCFilterItemCell.h; sourceTree = "<group>"; };
 		913CED1C228D339C008DB451 /* WKCFilterItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCFilterItemCell.m; sourceTree = "<group>"; };
+		91466BBE228EE2290013F92C /* WKCBlendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCBlendViewController.h; sourceTree = "<group>"; };
+		91466BBF228EE2290013F92C /* WKCBlendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCBlendViewController.m; sourceTree = "<group>"; };
 		9168A747228BBACC0044E744 /* WKCImageEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKCImageEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9168A74A228BBACC0044E744 /* WKCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCAppDelegate.h; sourceTree = "<group>"; };
 		9168A74B228BBACC0044E744 /* WKCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCAppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91466BBD228EE2100013F92C /* BlendContoller */ = {
+			isa = PBXGroup;
+			children = (
+				91466BBE228EE2290013F92C /* WKCBlendViewController.h */,
+				91466BBF228EE2290013F92C /* WKCBlendViewController.m */,
+			);
+			path = BlendContoller;
+			sourceTree = "<group>";
+		};
 		9168A73E228BBACC0044E744 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +221,7 @@
 		9168A780228BDDD90044E744 /* ItemController */ = {
 			isa = PBXGroup;
 			children = (
+				91466BBD228EE2100013F92C /* BlendContoller */,
 				9168A832228C046A0044E744 /* DrawController */,
 				9168A82E228C041D0044E744 /* StickerController */,
 				9168A82A228C03D50044E744 /* FilterController */,
@@ -409,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91466BC0228EE2290013F92C /* WKCBlendViewController.m in Sources */,
 				9168A80B228BEB3F0044E744 /* WKCToneViewController.m in Sources */,
 				9168A75A228BBACF0044E744 /* main.m in Sources */,
 				9168A817228BF9640044E744 /* WKCCutViewController.m in Sources */,

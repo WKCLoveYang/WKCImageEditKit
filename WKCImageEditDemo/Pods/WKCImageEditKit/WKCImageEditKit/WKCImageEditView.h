@@ -17,6 +17,7 @@
 #import "WKCCutView.h" //Cut
 #import "WKCStickerItemView.h" //Sticker
 #import "WKCDrawContentView.h" //Draw
+#import "UIImage+Blend.h"
 
 @class WKCImageEditView;
 
@@ -203,5 +204,11 @@
 
 
 
+
+
+//Blend双重曝光
+- (void)blendWithFront:(UIImage *)front
+                 alpha:(CGFloat)alpha
+             blendMode:(WKCBlendMode)mode;
 
 @end

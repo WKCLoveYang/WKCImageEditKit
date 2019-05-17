@@ -7,76 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A4624C0490881FD7962E6F2768469F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C888B67D0070EB00560FC29A92EBC2FB /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		080E4BE02F132E026E9913CD9BDB2AFB /* WKCStickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F0EF68917A7E63664EEA14A6D74AAF /* WKCStickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B5C48CD6E3349F61DAC0B07C0643602 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A31D9AB9B0F6D52EA6B9A8AD8AB8CF /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0C0A8167A0F114A3C6FE15117C234BAA /* WKCToneCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47249A131F1F1CAA296D94C7257A5C13 /* WKCToneCurveView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0F1CEF2B08D18B900A16F3249C96DBEF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F53EF3C8DC311D0451611FC3D2A5509 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10024641DB68C0DBE3ED6402EBAB49F8 /* WKCControlPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9196D2D05935324224781238D9B7DA /* WKCControlPointView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1241E7279830B537B38E3D6D099C0119 /* WKCDrawContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B388DC57F94784C88AA4B47D4B28C3 /* WKCDrawContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12F55431D5F26E2422C5C2DB440F991F /* WKCDrawContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A9EEEEE198F3959C0832C376E62A4 /* WKCDrawContentView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		131EA74E94193FCA192A7E366EAA08D5 /* UIImage+Flip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAFBE773D94A7BD30E9697F21373BF2 /* UIImage+Flip.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		147370B40CE853ADCC91F9C81FF5E5FA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 251B5F1E83899A665348424E7F63E38B /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1536EA10B84980038D1E9AD34C790E96 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AC840DC9936A39268B05C82ED1C11 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1586E292781F19EAF835A40DB25964C5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6668E97FFE3065AF9F78DA0FF4BCB0 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1B39AC6F58BAA1AB1D6C5AF29611ADC8 /* WKCSplineInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E82499D553C9023D52D261AF2D99A /* WKCSplineInterpolator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1D12FE6ABBFFDECF65CA15759AD0E411 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C99277FF2450D2408327232198651BF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E6A21E87C8969919F4523BF7C73A1B9 /* WKCCutCropAreaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A02887F400A5B2D295DA76A786719C7 /* WKCCutCropAreaView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E0091880BD955EB87B41DF52594CE5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26A9052B370C530271622CD46188103D /* WKCToneCurveView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7D5FA2496E179B55FDDE31D7B692CE /* WKCToneCurveView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3DBCCD6D0DCAA09409075E0ADC99DC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30BB147C8661C7F631FAF9FB9FEBC3B5 /* WKCCutCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBCF360B58D49FAD1D5B32E745EBA0 /* WKCCutCornerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3251F4DD5A1F85A3AD7C03E9842448CD /* WKCCutMidLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4169C57EAA7EE8BF223A1BD28504D45F /* WKCCutMidLineView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		348556118DC1DACC0BE3A597BAFA7C75 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B00938C5410D854B60520039D9910720 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3742E882FFCB0726E4B7906AC0C93243 /* WKCStickerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A25A0C109BFF8268479305F77E8A60 /* WKCStickerItemView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		388EC8898DF3980C379556C581FC9F93 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F819F321F432ED708A4B2EA48B636B7 /* Masonry-dummy.m */; };
-		3ADEB62EBA27591EE2356AC3120FBB34 /* WKCCutMidLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8756873BAA339D509E7105393783CD50 /* WKCCutMidLineView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		06A4624C0490881FD7962E6F2768469F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E57A2988604E5A82D5952232712F19D7 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06B86DBC6641D449F5A0A29CDDCF39E1 /* WKCStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC5B75CB217623537DB347B093FB348 /* WKCStickerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0701BBA97B3867FDCA6E66E7E59DB994 /* WKCCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3583DF3E5746582B48E3A3DC35D5A25 /* WKCCutView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		08A80AAFC52C00A4D54B2BD39CA894B2 /* WKCStickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E03AA4B226AA7026121154DB69A56F /* WKCStickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B5C48CD6E3349F61DAC0B07C0643602 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 673511646B21B1A44DD590CAFF9ABF81 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0D337AD5504206E7C013652357BC93C3 /* WKCCutMidLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A33698A744FACFD64F1948077DAD /* WKCCutMidLineView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0DBA4046D8B86F30651A739FCE458C6B /* WKCStickerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB70BCF9F04FADCF5FF71EB8207204B /* WKCStickerGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0DDD47D69EE9991879EB1450FDC2D727 /* WKCCutView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1094557DE21F6A6E7DA2C8C12C429F /* WKCCutView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F1CEF2B08D18B900A16F3249C96DBEF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FFE9E4D5199E6A14EA5AD9CA0ADCCE /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		147370B40CE853ADCC91F9C81FF5E5FA /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 646F3FF0E3556B6D1D675725234870A1 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1536EA10B84980038D1E9AD34C790E96 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E0733318A6CB70669CDBBB6F86134 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1586E292781F19EAF835A40DB25964C5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB11FD57079ACC19F726D387E329DA3C /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1662339DBDA4A86032E9108A24E237FE /* WKCToneCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2593F660E4BB6F5EA5E86FE8633F333 /* WKCToneCurveView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1785FC3FE31ACAAFF214ACD2E1C9587B /* WKCCutCropAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD1F3BCE2A11DA2AD0BF35762AAF545 /* WKCCutCropAreaView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D12FE6ABBFFDECF65CA15759AD0E411 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DF79BB7046805ABB69284C68DEC0C9 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CC21409952DB61071A4F43838953B8 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		256F98ADA1F2D0CFD339E28B6CF0F27A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5D89533E8C3850C1C8008FAFB8B450 /* UIImage+Resize.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		28D25B1DA516CFA685462DF69897738C /* UIImage+OrienHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2345B155A710E29A7D72794ED117DE /* UIImage+OrienHandle.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB66650DF8A63EB55F696027A20FE25D /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31178C7265BE96BFC0D18F558D562E39 /* WKCCutCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 876CFC1C4372819583AC9DA8A1D619D3 /* WKCCutCornerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		348556118DC1DACC0BE3A597BAFA7C75 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9612CF1E5C7E30B67FE4024EDC8A8826 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		36359BD8BCA41603E207110EB2984D0E /* WKCControlPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC5DA862A2AA8181059AA9120E0B03E /* WKCControlPointView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		388EC8898DF3980C379556C581FC9F93 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F584B91DCBED765FEF227C5A9065A8B6 /* Masonry-dummy.m */; };
 		3D188220A4475441DB0FDA8B369DE281 /* Pods-default-WKCImageEditDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0F1A77743618310F81B53F7DC5028 /* Pods-default-WKCImageEditDemo-dummy.m */; };
-		3DB3579843799F51AB21BA9B8D709648 /* WKCTextItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = E931215DA2684BC4068E69D16C5D4E0F /* WKCTextItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3DF1CA369033A56EE9DE3DAE7B765C4B /* WKCImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F3A9FAD8A73115CB5873DB69BCF64 /* WKCImageEditView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		40EBC9268B9C588640D73EB65728D9AB /* WKCTextItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE357C50BBB54E2FF680ED59631047 /* WKCTextItemView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5CFC47F3EF40CC286D26897EBE356AF4 /* WKCSplineInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9A3D889ABC13A720C838502C61385B /* WKCSplineInterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D02D8F62A3353602DCAE1ACF7A4065D /* WKCStickerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1804B06CACD515A56773ED2213844 /* WKCStickerGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C93FE85FB59B29AF4033ADD4389E432 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = C99A3068D860D33845BF42FB914356C6 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6F38BD2D9F28DF8A5E15A28B56B58BCB /* WKCTextGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = C380BFD2AF2855310463B323468B9993 /* WKCTextGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7033B082FF428079EE2F5A305ABEFA6B /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE2AE77D443742F9F7DBCD828ABC1ED /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71CE0A0BB5DB3ECADFA58E6E2EFD5EAF /* WKCImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = B521748EBF0A669B4B1E6B693D185858 /* WKCImageEditView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		73B185030EC76859118C1405B24B5A03 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D6F79C716EAA7F05537867D2755859 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		740C52AB2707B69DD35FC0394A221628 /* UIImage+Adjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD08AB3FA39889EAB88C2A42C915F7 /* UIImage+Adjustment.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		79C0E1DA17185A94D4185B63CB1F11E9 /* WKCTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D28223D71AB1E6A2E1D725340DE8C8 /* WKCTextEditor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		79DE6675D75B822BDC8507C7F9A81CF9 /* UIImage+OrienHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E98D16D82A749A6F8F3966BCA09D4B9 /* UIImage+OrienHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		79FC551AE0FC8B61EC09A63E569220C5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E98E4FC54CF3F6826BC8A4AB4AFBAB /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A74F179E164718EFE69518B26CB7F1 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7C45D5609CD380FA1ED49CC56F544B69 /* UIImage+OrienHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ED4EC81744AAFA91BE3F3774657E97 /* UIImage+OrienHandle.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7F560B12407493644D006962319E6AEA /* WKCTextGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF607C4A1FE6855E9E8082C8F0B9D96 /* WKCTextGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7F7BF4E54ACEE20CD9388D73711095AC /* WKCCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA702CDBAB181518D0EE899362B1112 /* WKCCutView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		81DBAB0481BE9491C40978B470C0D9EA /* WKCStickerGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 434BD1CAA21EF703C15786CFC1DBD890 /* WKCStickerGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		834D1BB9656D3E64B2AF8C0E0119A37F /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 491BF6553D53C5D789985EC3C14DBA42 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A224994818B82827B4E1BE3AEAFA8EC /* WKCStcikerEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA870180ACCCA341FCE349C7F426D64 /* WKCStcikerEditor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8ACC40B3B4909038106DAB7F2742962D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2DA6A16575C39B343955EAF37DF9E3 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8FF1E1CE8625337D40CA5972C06F2E9F /* WKCTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA7210C69D49ADF79D7B2FE3135613 /* WKCTextEditor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F24E4773034BF2B491FFACC89222A23 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B99F63C71154D047A48E9D7126FFD6C /* WKCStcikerEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B0E1714095CB552B2B37BA3E7B0B4 /* WKCStcikerEditor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AD4B62F0B8872359C6CB9A6DE9F9DA6F /* UIImage+Adjustment.h in Headers */ = {isa = PBXBuildFile; fileRef = EA77B44714E3A157810491C956BBD68C /* UIImage+Adjustment.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AFCFE59CB8E269E01A4406E39E1BA4E3 /* UIImage+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 489B18F8BB71AD64E7F7A40E4740E848 /* UIImage+Filter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BAD8B82BFF141C62802182181654D19C /* WKCStickerItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = D43218D2856F8A74CDB83489E200AABD /* WKCStickerItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1C295BCD795C2B6044DB474583804B1 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA7F0E6B8289F237043FC25A9D7620D /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C7AC29F56D5F471248BBA0A724CDF3C7 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF2BE7F510D780E1DF056EA2B5121D4 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCA3FE6DC7E66FD60CCEB73AEEFDA09C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AC40F8AA8DBE97CC0E9E333C613EB4B2 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D1FDE5D914D6CC684B311079E41FD5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986654A025659348D1A317E4828E230A /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D87ED2104504AA0926DD1E31A88EB9C9 /* WKCCutCornerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C2B24E26466265146D2AD232E69F7A /* WKCCutCornerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DAD558FD67ACC4417564EF96DC43F63A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 838DA9DCF3505218908E475DFEF20767 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E0175DBE257C49DB4E43710ECA8EDDE8 /* UIImage+Flip.h in Headers */ = {isa = PBXBuildFile; fileRef = D98EF26D265702C89C449421E1603EEF /* UIImage+Flip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E8DE852F57A08856F88692588BF438E4 /* WKCImageEditKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48441DC7ED8A20D1D3A78D72496098DC /* WKCImageEditKit-dummy.m */; };
-		E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230CA90D80A9D233509DD95A5BEE058 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9B46EDE63EF132411A54F05DD0B6CDD /* WKCStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ECD8A70386E25564F3C53BBC434EF8 /* WKCStickerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EB99B36DE0E798C22C03963E37D36F3B /* WKCControlPointView.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEDD83A318BEA48F3F538DC660C27F9 /* WKCControlPointView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F0223A4EEF0A05E2DBC75767471884A2 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D6A951A94A7E2DDA21394900A50589 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3BA1342C9FFB43B0CD39C740C3B7C99 /* WKCCutCropAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054505223F978C970673550B31E4C70B /* WKCCutCropAreaView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F6912CC06AA8D06E345D7AFEE85DE97A /* WKCCutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 849E7C779175A10254D2D10BBFE65FD2 /* WKCCutView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F9915BF758A89D6F8BA8CD6D9B11802D /* UIImage+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 256C4D738B5FB9A3995A522DA357CC38 /* UIImage+Filter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FFF7A978321CA319E7E96F9A653C0F8A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DCAF2F0589284E4CC6C71D120B3C27 /* UIImage+Resize.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4015C0A64B2B5D07D456A6808A5D00CF /* WKCDrawContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D65C68539035153947C4EE604084EE63 /* WKCDrawContentView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		40AA2F9CC55E3897EDD99C64F977C586 /* UIImage+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = F76B911060D0F26C8A0EDAC93775AF5F /* UIImage+Filter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		418854B14C4E982970AF2BA39BCDFBE4 /* WKCStcikerEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423A411EBBC6DAF1FA5B82385526A56 /* WKCStcikerEditor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C11D5B44E24B50F52F3A2A4CBB19779 /* WKCTextItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E267B98ABA62CA43AD06DDBADE53F4D /* WKCTextItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		515FF9B5AECB654CA01CA8D4A3159AF0 /* WKCSplineInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEC091C09B3178DD0AA860EA574E658 /* WKCSplineInterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55C0314D9DF8031DB606F6932C432EC0 /* UIImage+Adjustment.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C3B1AA9B6391EADB15D1FC412ABCBC /* UIImage+Adjustment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E175DEB86FEF5FD9F482E0E9CA41A95 /* WKCImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C89C2DB2C4FE92A93E3492F8231AF /* WKCImageEditView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA80083C214AF739F49D98DEE67D395 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7A72578E54E166633FB84E5CEEB7D2 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BB8E92F6B81C2BE8678A42F6AA7EBFD /* WKCImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A57394083A0E2C98996DC79677637A /* WKCImageEditView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CDE0BD0BC257651531430A3EEF8BB81 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = E84DD7B91C4A26D4570C4A0D304F6A2B /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70606CF051EB21A74261034418544FB8 /* UIImage+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D0A7C9EDD3960ADA6E8D5931D02A57 /* UIImage+Filter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		716F9ACEC6FD5CC547F80FBF398DCBCF /* WKCImageEditKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E998E71B227F97AABDF64B00344CE6CB /* WKCImageEditKit-dummy.m */; };
+		73B185030EC76859118C1405B24B5A03 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CA7685052C49AC5C7C38D5A498D28 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		752D7A4E8039FB9442CEF6F39510A572 /* WKCTextGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E30E644799CEB8543B64AB0D375C6104 /* WKCTextGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79FC551AE0FC8B61EC09A63E569220C5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB206C194DC4DF23A6C96B7B68B3CC8E /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A69746BCC1A00A1857214ABC7E40D0E2 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80EBF3A62AD3D22DCBAE270213C9A3C1 /* WKCControlPointView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5BC525D8646A58C6745ACA7E983419 /* WKCControlPointView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82BCF4CB5B401A3E9A186B908E2B823B /* UIImage+OrienHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 041A5DB2F6BCD3B71C3E53439F58E245 /* UIImage+OrienHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		834D1BB9656D3E64B2AF8C0E0119A37F /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 00179EA72E2617D969DC361E5F51961D /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8ACC40B3B4909038106DAB7F2742962D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37678AE0AC139B258FFE3BC566B67716 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F8E6BBE95B9DB78DD6FB47FEAF9962D /* WKCStickerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49917DEA4C1DDCD4709F047E066F05E0 /* WKCStickerItemView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9140CC4A98CCD6DEA790139D99D94583 /* WKCCutCropAreaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75178B0B2D775D0E761468EC3B7DA2F5 /* WKCCutCropAreaView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 479ADA8D5A26558A443C6C4BDF8033E7 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9868E1141C433B5EC5DADF74BCAAB56E /* UIImage+Flip.m in Sources */ = {isa = PBXBuildFile; fileRef = F0791CD48382007C602473D6832E61B3 /* UIImage+Flip.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C0F232016DACF24793D4B88872EF8E8 /* UIImage+Flip.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A76B907FF3F09FE7FCAE522AABA19C /* UIImage+Flip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A611573DB29452E1AC955B2ECD562DC6 /* WKCStickerItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0879F4269626B2D21C6D1919E84CECD5 /* WKCStickerItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7AEB33B6D406D2ABD03DD553D46A2A4 /* WKCTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D13FADAEE60EEA46D35F820954FDB9 /* WKCTextEditor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B3004B6D9B39240A9DCB058D05DA642D /* WKCTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB44C875C72FF2997A408F93FC5C219 /* WKCTextEditor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B542161E20E8A708848A26333416AEB8 /* WKCDrawContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DEE816A2E7635AD9EDFBFEEED9BDFB /* WKCDrawContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7A7607ED56832DF07CEE7CE38BC7E0A /* WKCTextGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D47D2137BE601D3E8ABD5FCB9147F8 /* WKCTextGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B95FA45881FE212F981D4750000D6826 /* WKCCutMidLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A68DAFA70986EA8E5077BFCE03EC9B9 /* WKCCutMidLineView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD58344DDC9F3D32A2E58950B2CB4DCE /* WKCStcikerEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D7FF8A48D81553A1C6E8282283C27D /* WKCStcikerEditor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1C295BCD795C2B6044DB474583804B1 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E69715FA9775DFF0C6D6AC44239C4051 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7AC29F56D5F471248BBA0A724CDF3C7 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 192476DFA3BCFC8B8B128AC4C3E76708 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA607247E640CA5EDCCD4936AD1DF6C2 /* UIImage+Blend.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC980F8416202E5B04C53D37D4B9EEC /* UIImage+Blend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CCA3FE6DC7E66FD60CCEB73AEEFDA09C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 397BC7CCC60C4692A403A1511B40A63E /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1FDE5D914D6CC684B311079E41FD5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BAAF7793E0655750236C1888EE2FCE /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D894B24BBCDC8C46433332EDA552E75C /* UIImage+Adjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6930E6514E4D7EA35A72BEE50F9D6ED5 /* UIImage+Adjustment.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DAD558FD67ACC4417564EF96DC43F63A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7206A7FF511B89E3AF86605560B8CEF4 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DF9300C33A3E2EBB7B067788389E4775 /* WKCStickerGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6E56B5B39BAA5914B1F4E062707765 /* WKCStickerGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4EEFBEE99844B69A4A07C233ABD4A19 /* WKCSplineInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF046CAA981FFD9D17F53AE31DF2788 /* WKCSplineInterpolator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E85A7104B459D4851806E323312E6DF2 /* UIImage+Blend.h in Headers */ = {isa = PBXBuildFile; fileRef = 337DAED72D37E25D2537A1ACE62F521C /* UIImage+Blend.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B06B3156F164DFEB95749C567AD19F /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0223A4EEF0A05E2DBC75767471884A2 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B445A6003E14BE2131E4951F6C03FBA /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F533A17A912668EFB73F9DC890CF0613 /* WKCCutCornerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 739F13781C5E6951D27D1BD8E3AA3CB4 /* WKCCutCornerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F53B4C9B654B53259B6623B890F1B180 /* WKCToneCurveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 465373227D1CF9CA37F2BF17422E8385 /* WKCToneCurveView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD8EBD312C25605E0E8458AB4CFFCB30 /* WKCTextItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D4983A894E9D3FCBA46B1961BE557D /* WKCTextItemView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,88 +99,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00179EA72E2617D969DC361E5F51961D /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		0338979F00740E5875DFFCE7A25ED1F3 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E0091880BD955EB87B41DF52594CE5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		054505223F978C970673550B31E4C70B /* WKCCutCropAreaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutCropAreaView.m; path = WKCImageEditKit/Cut/WKCCutCropAreaView.m; sourceTree = "<group>"; };
-		079A9EEEEE198F3959C0832C376E62A4 /* WKCDrawContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCDrawContentView.m; path = WKCImageEditKit/Draw/WKCDrawContentView.m; sourceTree = "<group>"; };
-		07D8CE60B5B3189C4E2F3A66A5DC5891 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		09AD08AB3FA39889EAB88C2A42C915F7 /* UIImage+Adjustment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Adjustment.m"; path = "WKCImageEditKit/Adjustment/UIImage+Adjustment.m"; sourceTree = "<group>"; };
-		146072A638B9D6B6BC91E47CFBA8870F /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		1A02887F400A5B2D295DA76A786719C7 /* WKCCutCropAreaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutCropAreaView.h; path = WKCImageEditKit/Cut/WKCCutCropAreaView.h; sourceTree = "<group>"; };
-		1ADBCF360B58D49FAD1D5B32E745EBA0 /* WKCCutCornerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutCornerView.m; path = WKCImageEditKit/Cut/WKCCutCornerView.m; sourceTree = "<group>"; };
-		1CA7F0E6B8289F237043FC25A9D7620D /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		1D3DBCCD6D0DCAA09409075E0ADC99DC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		041A5DB2F6BCD3B71C3E53439F58E245 /* UIImage+OrienHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrienHandle.h"; path = "WKCImageEditKit/Cut/UIImage+OrienHandle.h"; sourceTree = "<group>"; };
+		0879F4269626B2D21C6D1919E84CECD5 /* WKCStickerItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStickerItemView.h; path = WKCImageEditKit/Sticker/WKCStickerItemView.h; sourceTree = "<group>"; };
+		09DF79BB7046805ABB69284C68DEC0C9 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		0F6E56B5B39BAA5914B1F4E062707765 /* WKCStickerGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStickerGestureRecognizer.h; path = WKCImageEditKit/Sticker/WKCStickerGestureRecognizer.h; sourceTree = "<group>"; };
+		13BAAF7793E0655750236C1888EE2FCE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		17D0A7C9EDD3960ADA6E8D5931D02A57 /* UIImage+Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filter.h"; path = "WKCImageEditKit/Filter/UIImage+Filter.h"; sourceTree = "<group>"; };
+		1802A33698A744FACFD64F1948077DAD /* WKCCutMidLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutMidLineView.m; path = WKCImageEditKit/Cut/WKCCutMidLineView.m; sourceTree = "<group>"; };
+		192476DFA3BCFC8B8B128AC4C3E76708 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		214E432D47F223BEDF92F4F5483F2A7F /* Pods-default-WKCImageEditDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-default-WKCImageEditDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		251B5F1E83899A665348424E7F63E38B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		256C4D738B5FB9A3995A522DA357CC38 /* UIImage+Filter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Filter.m"; path = "WKCImageEditKit/Filter/UIImage+Filter.m"; sourceTree = "<group>"; };
-		31DCAF2F0589284E4CC6C71D120B3C27 /* UIImage+Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "WKCImageEditKit/Resize/UIImage+Resize.m"; sourceTree = "<group>"; };
-		3230CA90D80A9D233509DD95A5BEE058 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		36D6A951A94A7E2DDA21394900A50589 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		38A1804B06CACD515A56773ED2213844 /* WKCStickerGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStickerGestureRecognizer.m; path = WKCImageEditKit/Sticker/WKCStickerGestureRecognizer.m; sourceTree = "<group>"; };
-		3E98D16D82A749A6F8F3966BCA09D4B9 /* UIImage+OrienHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrienHandle.h"; path = "WKCImageEditKit/Cut/UIImage+OrienHandle.h"; sourceTree = "<group>"; };
-		3F819F321F432ED708A4B2EA48B636B7 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		4169C57EAA7EE8BF223A1BD28504D45F /* WKCCutMidLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutMidLineView.h; path = WKCImageEditKit/Cut/WKCCutMidLineView.h; sourceTree = "<group>"; };
-		434BD1CAA21EF703C15786CFC1DBD890 /* WKCStickerGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStickerGestureRecognizer.h; path = WKCImageEditKit/Sticker/WKCStickerGestureRecognizer.h; sourceTree = "<group>"; };
-		47249A131F1F1CAA296D94C7257A5C13 /* WKCToneCurveView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCToneCurveView.m; path = WKCImageEditKit/ToneCurve/WKCToneCurveView.m; sourceTree = "<group>"; };
-		48441DC7ED8A20D1D3A78D72496098DC /* WKCImageEditKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKCImageEditKit-dummy.m"; sourceTree = "<group>"; };
-		489B18F8BB71AD64E7F7A40E4740E848 /* UIImage+Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filter.h"; path = "WKCImageEditKit/Filter/UIImage+Filter.h"; sourceTree = "<group>"; };
-		491BF6553D53C5D789985EC3C14DBA42 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		4E8B0E1714095CB552B2B37BA3E7B0B4 /* WKCStcikerEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStcikerEditor.m; path = WKCImageEditKit/Sticker/WKCStcikerEditor.m; sourceTree = "<group>"; };
-		4F24E4773034BF2B491FFACC89222A23 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		4F9A3D889ABC13A720C838502C61385B /* WKCSplineInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCSplineInterpolator.h; path = WKCImageEditKit/ToneCurve/WKCSplineInterpolator.h; sourceTree = "<group>"; };
+		21FFE9E4D5199E6A14EA5AD9CA0ADCCE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		27DEE816A2E7635AD9EDFBFEEED9BDFB /* WKCDrawContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCDrawContentView.h; path = WKCImageEditKit/Draw/WKCDrawContentView.h; sourceTree = "<group>"; };
+		2E267B98ABA62CA43AD06DDBADE53F4D /* WKCTextItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCTextItemView.h; path = WKCImageEditKit/Text/WKCTextItemView.h; sourceTree = "<group>"; };
+		2EFD2E97CE77F40B76567C661C5F71B3 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		337DAED72D37E25D2537A1ACE62F521C /* UIImage+Blend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Blend.h"; path = "WKCImageEditKit/Blend/UIImage+Blend.h"; sourceTree = "<group>"; };
+		3423A411EBBC6DAF1FA5B82385526A56 /* WKCStcikerEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStcikerEditor.m; path = WKCImageEditKit/Sticker/WKCStcikerEditor.m; sourceTree = "<group>"; };
+		37678AE0AC139B258FFE3BC566B67716 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		397BC7CCC60C4692A403A1511B40A63E /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		3CC7C0F3FA7EBCFCAD86F2BA993A5B6B /* WKCImageEditKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKCImageEditKit.xcconfig; sourceTree = "<group>"; };
+		3DA80083C214AF739F49D98DEE67D395 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		459325CA24E9224B96F22E8BAD3736E8 /* WKCImageEditKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKCImageEditKit-prefix.pch"; sourceTree = "<group>"; };
+		465373227D1CF9CA37F2BF17422E8385 /* WKCToneCurveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCToneCurveView.h; path = WKCImageEditKit/ToneCurve/WKCToneCurveView.h; sourceTree = "<group>"; };
+		479ADA8D5A26558A443C6C4BDF8033E7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		49917DEA4C1DDCD4709F047E066F05E0 /* WKCStickerItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStickerItemView.m; path = WKCImageEditKit/Sticker/WKCStickerItemView.m; sourceTree = "<group>"; };
+		4B8CA7685052C49AC5C7C38D5A498D28 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		530CF5CDD64FED7268CC78986A28B74F /* libPods-default-WKCImageEditDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-default-WKCImageEditDemo.a"; path = "libPods-default-WKCImageEditDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		560015BFD88B2F19D2FF7B1D5412809B /* Pods-default-WKCImageEditDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-default-WKCImageEditDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D7AC840DC9936A39268B05C82ED1C11 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		5EA702CDBAB181518D0EE899362B1112 /* WKCCutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutView.m; path = WKCImageEditKit/Cut/WKCCutView.m; sourceTree = "<group>"; };
-		61D28223D71AB1E6A2E1D725340DE8C8 /* WKCTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCTextEditor.h; path = WKCImageEditKit/Text/WKCTextEditor.h; sourceTree = "<group>"; };
-		62CE357C50BBB54E2FF680ED59631047 /* WKCTextItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCTextItemView.m; path = WKCImageEditKit/Text/WKCTextItemView.m; sourceTree = "<group>"; };
-		6BF2BE7F510D780E1DF056EA2B5121D4 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		6C99277FF2450D2408327232198651BF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		6F53EF3C8DC311D0451611FC3D2A5509 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7CFA7210C69D49ADF79D7B2FE3135613 /* WKCTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCTextEditor.m; path = WKCImageEditKit/Text/WKCTextEditor.m; sourceTree = "<group>"; };
-		7E4CB9386B353F75A99F13F90E6C9540 /* WKCImageEditKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKCImageEditKit.xcconfig; sourceTree = "<group>"; };
-		838DA9DCF3505218908E475DFEF20767 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		849E7C779175A10254D2D10BBFE65FD2 /* WKCCutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutView.h; path = WKCImageEditKit/Cut/WKCCutView.h; sourceTree = "<group>"; };
-		84B388DC57F94784C88AA4B47D4B28C3 /* WKCDrawContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCDrawContentView.h; path = WKCImageEditKit/Draw/WKCDrawContentView.h; sourceTree = "<group>"; };
-		85C2B24E26466265146D2AD232E69F7A /* WKCCutCornerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutCornerView.h; path = WKCImageEditKit/Cut/WKCCutCornerView.h; sourceTree = "<group>"; };
-		8756873BAA339D509E7105393783CD50 /* WKCCutMidLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutMidLineView.m; path = WKCImageEditKit/Cut/WKCCutMidLineView.m; sourceTree = "<group>"; };
-		87F0EF68917A7E63664EEA14A6D74AAF /* WKCStickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStickerView.h; path = WKCImageEditKit/Sticker/WKCStickerView.h; sourceTree = "<group>"; };
-		8E1E82499D553C9023D52D261AF2D99A /* WKCSplineInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCSplineInterpolator.m; path = WKCImageEditKit/ToneCurve/WKCSplineInterpolator.m; sourceTree = "<group>"; };
-		8EA870180ACCCA341FCE349C7F426D64 /* WKCStcikerEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStcikerEditor.h; path = WKCImageEditKit/Sticker/WKCStcikerEditor.h; sourceTree = "<group>"; };
-		8EE2AE77D443742F9F7DBCD828ABC1ED /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "WKCImageEditKit/Resize/UIImage+Resize.h"; sourceTree = "<group>"; };
-		8FAFBE773D94A7BD30E9697F21373BF2 /* UIImage+Flip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Flip.m"; path = "WKCImageEditKit/Flip/UIImage+Flip.m"; sourceTree = "<group>"; };
-		96A25A0C109BFF8268479305F77E8A60 /* WKCStickerItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStickerItemView.m; path = WKCImageEditKit/Sticker/WKCStickerItemView.m; sourceTree = "<group>"; };
-		986654A025659348D1A317E4828E230A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		9C93FE85FB59B29AF4033ADD4389E432 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		9D6668E97FFE3065AF9F78DA0FF4BCB0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5B445A6003E14BE2131E4951F6C03FBA /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5F0C4C46B94C5E233DB4DA1E04E8D27D /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		646F3FF0E3556B6D1D675725234870A1 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		673511646B21B1A44DD590CAFF9ABF81 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		67D47D2137BE601D3E8ABD5FCB9147F8 /* WKCTextGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCTextGestureRecognizer.m; path = WKCImageEditKit/Text/WKCTextGestureRecognizer.m; sourceTree = "<group>"; };
+		691C89C2DB2C4FE92A93E3492F8231AF /* WKCImageEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCImageEditView.m; path = WKCImageEditKit/WKCImageEditView.m; sourceTree = "<group>"; };
+		6930E6514E4D7EA35A72BEE50F9D6ED5 /* UIImage+Adjustment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Adjustment.m"; path = "WKCImageEditKit/Adjustment/UIImage+Adjustment.m"; sourceTree = "<group>"; };
+		6EB44C875C72FF2997A408F93FC5C219 /* WKCTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCTextEditor.h; path = WKCImageEditKit/Text/WKCTextEditor.h; sourceTree = "<group>"; };
+		7206A7FF511B89E3AF86605560B8CEF4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		739F13781C5E6951D27D1BD8E3AA3CB4 /* WKCCutCornerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutCornerView.h; path = WKCImageEditKit/Cut/WKCCutCornerView.h; sourceTree = "<group>"; };
+		75178B0B2D775D0E761468EC3B7DA2F5 /* WKCCutCropAreaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutCropAreaView.h; path = WKCImageEditKit/Cut/WKCCutCropAreaView.h; sourceTree = "<group>"; };
+		7A68DAFA70986EA8E5077BFCE03EC9B9 /* WKCCutMidLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutMidLineView.h; path = WKCImageEditKit/Cut/WKCCutMidLineView.h; sourceTree = "<group>"; };
+		7AF046CAA981FFD9D17F53AE31DF2788 /* WKCSplineInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCSplineInterpolator.m; path = WKCImageEditKit/ToneCurve/WKCSplineInterpolator.m; sourceTree = "<group>"; };
+		876CFC1C4372819583AC9DA8A1D619D3 /* WKCCutCornerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutCornerView.m; path = WKCImageEditKit/Cut/WKCCutCornerView.m; sourceTree = "<group>"; };
+		9612CF1E5C7E30B67FE4024EDC8A8826 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		99D13FADAEE60EEA46D35F820954FDB9 /* WKCTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCTextEditor.m; path = WKCImageEditKit/Text/WKCTextEditor.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C3B1AA9B6391EADB15D1FC412ABCBC /* UIImage+Adjustment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Adjustment.h"; path = "WKCImageEditKit/Adjustment/UIImage+Adjustment.h"; sourceTree = "<group>"; };
 		A2D0F1A77743618310F81B53F7DC5028 /* Pods-default-WKCImageEditDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-default-WKCImageEditDemo-dummy.m"; sourceTree = "<group>"; };
-		AC40F8AA8DBE97CC0E9E333C613EB4B2 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		B00938C5410D854B60520039D9910720 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		B4A74F179E164718EFE69518B26CB7F1 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		B521748EBF0A669B4B1E6B693D185858 /* WKCImageEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCImageEditView.h; path = WKCImageEditKit/WKCImageEditView.h; sourceTree = "<group>"; };
+		A69746BCC1A00A1857214ABC7E40D0E2 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		B0A76B907FF3F09FE7FCAE522AABA19C /* UIImage+Flip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Flip.h"; path = "WKCImageEditKit/Flip/UIImage+Flip.h"; sourceTree = "<group>"; };
+		B3583DF3E5746582B48E3A3DC35D5A25 /* WKCCutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutView.m; path = WKCImageEditKit/Cut/WKCCutView.m; sourceTree = "<group>"; };
+		B3D4983A894E9D3FCBA46B1961BE557D /* WKCTextItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCTextItemView.m; path = WKCImageEditKit/Text/WKCTextItemView.m; sourceTree = "<group>"; };
 		B76D8A5811452DD601499DC885AAAB25 /* libWKCImageEditKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWKCImageEditKit.a; path = libWKCImageEditKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A57394083A0E2C98996DC79677637A /* WKCImageEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCImageEditView.h; path = WKCImageEditKit/WKCImageEditView.h; sourceTree = "<group>"; };
+		BB11FD57079ACC19F726D387E329DA3C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BC2345B155A710E29A7D72794ED117DE /* UIImage+OrienHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrienHandle.m"; path = "WKCImageEditKit/Cut/UIImage+OrienHandle.m"; sourceTree = "<group>"; };
+		BC7A72578E54E166633FB84E5CEEB7D2 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		BCC980F8416202E5B04C53D37D4B9EEC /* UIImage+Blend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Blend.m"; path = "WKCImageEditKit/Blend/UIImage+Blend.m"; sourceTree = "<group>"; };
 		BFB79C1FEB5DB62C2A877AED8746877A /* Pods-default-WKCImageEditDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-default-WKCImageEditDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C380BFD2AF2855310463B323468B9993 /* WKCTextGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCTextGestureRecognizer.h; path = WKCImageEditKit/Text/WKCTextGestureRecognizer.h; sourceTree = "<group>"; };
-		C7E98E4FC54CF3F6826BC8A4AB4AFBAB /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		C888B67D0070EB00560FC29A92EBC2FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		C99A3068D860D33845BF42FB914356C6 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		CB7D5FA2496E179B55FDDE31D7B692CE /* WKCToneCurveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCToneCurveView.h; path = WKCImageEditKit/ToneCurve/WKCToneCurveView.h; sourceTree = "<group>"; };
-		CE2DA6A16575C39B343955EAF37DF9E3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		D43218D2856F8A74CDB83489E200AABD /* WKCStickerItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStickerItemView.h; path = WKCImageEditKit/Sticker/WKCStickerItemView.h; sourceTree = "<group>"; };
+		C4B06B3156F164DFEB95749C567AD19F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		C5CC21409952DB61071A4F43838953B8 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CC1094557DE21F6A6E7DA2C8C12C429F /* WKCCutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCCutView.h; path = WKCImageEditKit/Cut/WKCCutView.h; sourceTree = "<group>"; };
+		CDC5DA862A2AA8181059AA9120E0B03E /* WKCControlPointView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCControlPointView.m; path = WKCImageEditKit/ToneCurve/WKCControlPointView.m; sourceTree = "<group>"; };
+		CF5BC525D8646A58C6745ACA7E983419 /* WKCControlPointView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCControlPointView.h; path = WKCImageEditKit/ToneCurve/WKCControlPointView.h; sourceTree = "<group>"; };
+		CF5D89533E8C3850C1C8008FAFB8B450 /* UIImage+Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "WKCImageEditKit/Resize/UIImage+Resize.m"; sourceTree = "<group>"; };
+		D2593F660E4BB6F5EA5E86FE8633F333 /* WKCToneCurveView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCToneCurveView.m; path = WKCImageEditKit/ToneCurve/WKCToneCurveView.m; sourceTree = "<group>"; };
 		D6323D6119F3296FB4D149A01EF27A92 /* Pods-default-WKCImageEditDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-default-WKCImageEditDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D6C184A535DECCFC507E41CAE39236A7 /* WKCImageEditKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKCImageEditKit-prefix.pch"; sourceTree = "<group>"; };
-		D98EF26D265702C89C449421E1603EEF /* UIImage+Flip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Flip.h"; path = "WKCImageEditKit/Flip/UIImage+Flip.h"; sourceTree = "<group>"; };
-		DA0F3A9FAD8A73115CB5873DB69BCF64 /* WKCImageEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCImageEditView.m; path = WKCImageEditKit/WKCImageEditView.m; sourceTree = "<group>"; };
-		DAEDD83A318BEA48F3F538DC660C27F9 /* WKCControlPointView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCControlPointView.h; path = WKCImageEditKit/ToneCurve/WKCControlPointView.h; sourceTree = "<group>"; };
-		DC9196D2D05935324224781238D9B7DA /* WKCControlPointView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCControlPointView.m; path = WKCImageEditKit/ToneCurve/WKCControlPointView.m; sourceTree = "<group>"; };
-		DDF607C4A1FE6855E9E8082C8F0B9D96 /* WKCTextGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCTextGestureRecognizer.m; path = WKCImageEditKit/Text/WKCTextGestureRecognizer.m; sourceTree = "<group>"; };
-		E2D6F79C716EAA7F05537867D2755859 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		E5ED4EC81744AAFA91BE3F3774657E97 /* UIImage+OrienHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrienHandle.m"; path = "WKCImageEditKit/Cut/UIImage+OrienHandle.m"; sourceTree = "<group>"; };
-		E6ECD8A70386E25564F3C53BBC434EF8 /* WKCStickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStickerView.m; path = WKCImageEditKit/Sticker/WKCStickerView.m; sourceTree = "<group>"; };
-		E931215DA2684BC4068E69D16C5D4E0F /* WKCTextItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCTextItemView.h; path = WKCImageEditKit/Text/WKCTextItemView.h; sourceTree = "<group>"; };
-		EA77B44714E3A157810491C956BBD68C /* UIImage+Adjustment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Adjustment.h"; path = "WKCImageEditKit/Adjustment/UIImage+Adjustment.h"; sourceTree = "<group>"; };
-		F1A31D9AB9B0F6D52EA6B9A8AD8AB8CF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D65C68539035153947C4EE604084EE63 /* WKCDrawContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCDrawContentView.m; path = WKCImageEditKit/Draw/WKCDrawContentView.m; sourceTree = "<group>"; };
+		DB206C194DC4DF23A6C96B7B68B3CC8E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		DB66650DF8A63EB55F696027A20FE25D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DFC5B75CB217623537DB347B093FB348 /* WKCStickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStickerView.m; path = WKCImageEditKit/Sticker/WKCStickerView.m; sourceTree = "<group>"; };
+		DFEC091C09B3178DD0AA860EA574E658 /* WKCSplineInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCSplineInterpolator.h; path = WKCImageEditKit/ToneCurve/WKCSplineInterpolator.h; sourceTree = "<group>"; };
+		E30E644799CEB8543B64AB0D375C6104 /* WKCTextGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCTextGestureRecognizer.h; path = WKCImageEditKit/Text/WKCTextGestureRecognizer.h; sourceTree = "<group>"; };
+		E4D7FF8A48D81553A1C6E8282283C27D /* WKCStcikerEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStcikerEditor.h; path = WKCImageEditKit/Sticker/WKCStcikerEditor.h; sourceTree = "<group>"; };
+		E57A2988604E5A82D5952232712F19D7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		E69715FA9775DFF0C6D6AC44239C4051 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E84DD7B91C4A26D4570C4A0D304F6A2B /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "WKCImageEditKit/Resize/UIImage+Resize.h"; sourceTree = "<group>"; };
+		E8E03AA4B226AA7026121154DB69A56F /* WKCStickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCStickerView.h; path = WKCImageEditKit/Sticker/WKCStickerView.h; sourceTree = "<group>"; };
+		E998E71B227F97AABDF64B00344CE6CB /* WKCImageEditKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKCImageEditKit-dummy.m"; sourceTree = "<group>"; };
+		ED2E0733318A6CB70669CDBBB6F86134 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EFB70BCF9F04FADCF5FF71EB8207204B /* WKCStickerGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCStickerGestureRecognizer.m; path = WKCImageEditKit/Sticker/WKCStickerGestureRecognizer.m; sourceTree = "<group>"; };
+		F0791CD48382007C602473D6832E61B3 /* UIImage+Flip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Flip.m"; path = "WKCImageEditKit/Flip/UIImage+Flip.m"; sourceTree = "<group>"; };
+		F584B91DCBED765FEF227C5A9065A8B6 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		F76B911060D0F26C8A0EDAC93775AF5F /* UIImage+Filter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Filter.m"; path = "WKCImageEditKit/Filter/UIImage+Filter.m"; sourceTree = "<group>"; };
+		FDD1F3BCE2A11DA2AD0BF35762AAF545 /* WKCCutCropAreaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCCutCropAreaView.m; path = WKCImageEditKit/Cut/WKCCutCropAreaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,7 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92F11A4E9B92A5AD6F9E8EDB6264A034 /* Frameworks */ = {
+		92A01B7CC84796A3FC322F19F5C6AFF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,15 +233,6 @@
 			path = "Target Support Files/Pods-default-WKCImageEditDemo";
 			sourceTree = "<group>";
 		};
-		430DE61E0ECF1334404985BC5F1D82A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				66561B3079FEA2E26983D0BB39938EDC /* Masonry */,
-				AB897CD66F6975EA4BA5088A4911B88F /* WKCImageEditKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		445EE7B560C0A9CCEC7A130D53BAA0CE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,111 +241,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		66561B3079FEA2E26983D0BB39938EDC /* Masonry */ = {
+		4D62EE42A659CC1CD77B64B3F80DF055 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F53EF3C8DC311D0451611FC3D2A5509 /* MASCompositeConstraint.h */,
-				E2D6F79C716EAA7F05537867D2755859 /* MASCompositeConstraint.m */,
-				491BF6553D53C5D789985EC3C14DBA42 /* MASConstraint.h */,
-				838DA9DCF3505218908E475DFEF20767 /* MASConstraint.m */,
-				1CA7F0E6B8289F237043FC25A9D7620D /* MASConstraint+Private.h */,
-				C888B67D0070EB00560FC29A92EBC2FB /* MASConstraintMaker.h */,
-				B00938C5410D854B60520039D9910720 /* MASConstraintMaker.m */,
-				36D6A951A94A7E2DDA21394900A50589 /* MASLayoutConstraint.h */,
-				5D7AC840DC9936A39268B05C82ED1C11 /* MASLayoutConstraint.m */,
-				6BF2BE7F510D780E1DF056EA2B5121D4 /* Masonry.h */,
-				3230CA90D80A9D233509DD95A5BEE058 /* MASUtilities.h */,
-				C99A3068D860D33845BF42FB914356C6 /* MASViewAttribute.h */,
-				AC40F8AA8DBE97CC0E9E333C613EB4B2 /* MASViewAttribute.m */,
-				6C99277FF2450D2408327232198651BF /* MASViewConstraint.h */,
-				986654A025659348D1A317E4828E230A /* MASViewConstraint.m */,
-				1D3DBCCD6D0DCAA09409075E0ADC99DC /* NSArray+MASAdditions.h */,
-				F1A31D9AB9B0F6D52EA6B9A8AD8AB8CF /* NSArray+MASAdditions.m */,
-				4F24E4773034BF2B491FFACC89222A23 /* NSArray+MASShorthandAdditions.h */,
-				251B5F1E83899A665348424E7F63E38B /* NSLayoutConstraint+MASDebugAdditions.h */,
-				9D6668E97FFE3065AF9F78DA0FF4BCB0 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				B4A74F179E164718EFE69518B26CB7F1 /* View+MASAdditions.h */,
-				C7E98E4FC54CF3F6826BC8A4AB4AFBAB /* View+MASAdditions.m */,
-				9C93FE85FB59B29AF4033ADD4389E432 /* View+MASShorthandAdditions.h */,
-				04E0091880BD955EB87B41DF52594CE5 /* ViewController+MASAdditions.h */,
-				CE2DA6A16575C39B343955EAF37DF9E3 /* ViewController+MASAdditions.m */,
-				8376D9391CCBBF9F1E1D7EC451A26E6F /* Support Files */,
+				C57A901494CA7CB37C97729BB2490BD2 /* Masonry */,
+				F56B9DCF4813C5598AAAB57AE816D513 /* WKCImageEditKit */,
 			);
-			name = Masonry;
-			path = Masonry;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		8376D9391CCBBF9F1E1D7EC451A26E6F /* Support Files */ = {
+		4EDCF9CFAC327C3A309B5EDFCC0CD1FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				146072A638B9D6B6BC91E47CFBA8870F /* Masonry.xcconfig */,
-				3F819F321F432ED708A4B2EA48B636B7 /* Masonry-dummy.m */,
-				07D8CE60B5B3189C4E2F3A66A5DC5891 /* Masonry-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		8C589DAFE5E9928232817177247A278B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E4CB9386B353F75A99F13F90E6C9540 /* WKCImageEditKit.xcconfig */,
-				48441DC7ED8A20D1D3A78D72496098DC /* WKCImageEditKit-dummy.m */,
-				D6C184A535DECCFC507E41CAE39236A7 /* WKCImageEditKit-prefix.pch */,
+				3CC7C0F3FA7EBCFCAD86F2BA993A5B6B /* WKCImageEditKit.xcconfig */,
+				E998E71B227F97AABDF64B00344CE6CB /* WKCImageEditKit-dummy.m */,
+				459325CA24E9224B96F22E8BAD3736E8 /* WKCImageEditKit-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WKCImageEditKit";
 			sourceTree = "<group>";
 		};
-		AB897CD66F6975EA4BA5088A4911B88F /* WKCImageEditKit */ = {
+		7084C4CAB07D31B764024BCC1AC28307 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA77B44714E3A157810491C956BBD68C /* UIImage+Adjustment.h */,
-				09AD08AB3FA39889EAB88C2A42C915F7 /* UIImage+Adjustment.m */,
-				489B18F8BB71AD64E7F7A40E4740E848 /* UIImage+Filter.h */,
-				256C4D738B5FB9A3995A522DA357CC38 /* UIImage+Filter.m */,
-				D98EF26D265702C89C449421E1603EEF /* UIImage+Flip.h */,
-				8FAFBE773D94A7BD30E9697F21373BF2 /* UIImage+Flip.m */,
-				3E98D16D82A749A6F8F3966BCA09D4B9 /* UIImage+OrienHandle.h */,
-				E5ED4EC81744AAFA91BE3F3774657E97 /* UIImage+OrienHandle.m */,
-				8EE2AE77D443742F9F7DBCD828ABC1ED /* UIImage+Resize.h */,
-				31DCAF2F0589284E4CC6C71D120B3C27 /* UIImage+Resize.m */,
-				DAEDD83A318BEA48F3F538DC660C27F9 /* WKCControlPointView.h */,
-				DC9196D2D05935324224781238D9B7DA /* WKCControlPointView.m */,
-				85C2B24E26466265146D2AD232E69F7A /* WKCCutCornerView.h */,
-				1ADBCF360B58D49FAD1D5B32E745EBA0 /* WKCCutCornerView.m */,
-				1A02887F400A5B2D295DA76A786719C7 /* WKCCutCropAreaView.h */,
-				054505223F978C970673550B31E4C70B /* WKCCutCropAreaView.m */,
-				4169C57EAA7EE8BF223A1BD28504D45F /* WKCCutMidLineView.h */,
-				8756873BAA339D509E7105393783CD50 /* WKCCutMidLineView.m */,
-				849E7C779175A10254D2D10BBFE65FD2 /* WKCCutView.h */,
-				5EA702CDBAB181518D0EE899362B1112 /* WKCCutView.m */,
-				84B388DC57F94784C88AA4B47D4B28C3 /* WKCDrawContentView.h */,
-				079A9EEEEE198F3959C0832C376E62A4 /* WKCDrawContentView.m */,
-				B521748EBF0A669B4B1E6B693D185858 /* WKCImageEditView.h */,
-				DA0F3A9FAD8A73115CB5873DB69BCF64 /* WKCImageEditView.m */,
-				4F9A3D889ABC13A720C838502C61385B /* WKCSplineInterpolator.h */,
-				8E1E82499D553C9023D52D261AF2D99A /* WKCSplineInterpolator.m */,
-				8EA870180ACCCA341FCE349C7F426D64 /* WKCStcikerEditor.h */,
-				4E8B0E1714095CB552B2B37BA3E7B0B4 /* WKCStcikerEditor.m */,
-				434BD1CAA21EF703C15786CFC1DBD890 /* WKCStickerGestureRecognizer.h */,
-				38A1804B06CACD515A56773ED2213844 /* WKCStickerGestureRecognizer.m */,
-				D43218D2856F8A74CDB83489E200AABD /* WKCStickerItemView.h */,
-				96A25A0C109BFF8268479305F77E8A60 /* WKCStickerItemView.m */,
-				87F0EF68917A7E63664EEA14A6D74AAF /* WKCStickerView.h */,
-				E6ECD8A70386E25564F3C53BBC434EF8 /* WKCStickerView.m */,
-				61D28223D71AB1E6A2E1D725340DE8C8 /* WKCTextEditor.h */,
-				7CFA7210C69D49ADF79D7B2FE3135613 /* WKCTextEditor.m */,
-				C380BFD2AF2855310463B323468B9993 /* WKCTextGestureRecognizer.h */,
-				DDF607C4A1FE6855E9E8082C8F0B9D96 /* WKCTextGestureRecognizer.m */,
-				E931215DA2684BC4068E69D16C5D4E0F /* WKCTextItemView.h */,
-				62CE357C50BBB54E2FF680ED59631047 /* WKCTextItemView.m */,
-				CB7D5FA2496E179B55FDDE31D7B692CE /* WKCToneCurveView.h */,
-				47249A131F1F1CAA296D94C7257A5C13 /* WKCToneCurveView.m */,
-				8C589DAFE5E9928232817177247A278B /* Support Files */,
+				5F0C4C46B94C5E233DB4DA1E04E8D27D /* Masonry.xcconfig */,
+				F584B91DCBED765FEF227C5A9065A8B6 /* Masonry-dummy.m */,
+				2EFD2E97CE77F40B76567C661C5F71B3 /* Masonry-prefix.pch */,
 			);
-			name = WKCImageEditKit;
-			path = WKCImageEditKit;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		C57A901494CA7CB37C97729BB2490BD2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				21FFE9E4D5199E6A14EA5AD9CA0ADCCE /* MASCompositeConstraint.h */,
+				4B8CA7685052C49AC5C7C38D5A498D28 /* MASCompositeConstraint.m */,
+				00179EA72E2617D969DC361E5F51961D /* MASConstraint.h */,
+				7206A7FF511B89E3AF86605560B8CEF4 /* MASConstraint.m */,
+				E69715FA9775DFF0C6D6AC44239C4051 /* MASConstraint+Private.h */,
+				E57A2988604E5A82D5952232712F19D7 /* MASConstraintMaker.h */,
+				9612CF1E5C7E30B67FE4024EDC8A8826 /* MASConstraintMaker.m */,
+				5B445A6003E14BE2131E4951F6C03FBA /* MASLayoutConstraint.h */,
+				ED2E0733318A6CB70669CDBBB6F86134 /* MASLayoutConstraint.m */,
+				192476DFA3BCFC8B8B128AC4C3E76708 /* Masonry.h */,
+				C4B06B3156F164DFEB95749C567AD19F /* MASUtilities.h */,
+				BC7A72578E54E166633FB84E5CEEB7D2 /* MASViewAttribute.h */,
+				397BC7CCC60C4692A403A1511B40A63E /* MASViewAttribute.m */,
+				09DF79BB7046805ABB69284C68DEC0C9 /* MASViewConstraint.h */,
+				13BAAF7793E0655750236C1888EE2FCE /* MASViewConstraint.m */,
+				DB66650DF8A63EB55F696027A20FE25D /* NSArray+MASAdditions.h */,
+				673511646B21B1A44DD590CAFF9ABF81 /* NSArray+MASAdditions.m */,
+				479ADA8D5A26558A443C6C4BDF8033E7 /* NSArray+MASShorthandAdditions.h */,
+				646F3FF0E3556B6D1D675725234870A1 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BB11FD57079ACC19F726D387E329DA3C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A69746BCC1A00A1857214ABC7E40D0E2 /* View+MASAdditions.h */,
+				DB206C194DC4DF23A6C96B7B68B3CC8E /* View+MASAdditions.m */,
+				3DA80083C214AF739F49D98DEE67D395 /* View+MASShorthandAdditions.h */,
+				C5CC21409952DB61071A4F43838953B8 /* ViewController+MASAdditions.h */,
+				37678AE0AC139B258FFE3BC566B67716 /* ViewController+MASAdditions.m */,
+				7084C4CAB07D31B764024BCC1AC28307 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -358,7 +311,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				430DE61E0ECF1334404985BC5F1D82A3 /* Pods */,
+				4D62EE42A659CC1CD77B64B3F80DF055 /* Pods */,
 				2A364C88CC53C1064A15684E4B8CBD98 /* Products */,
 				445EE7B560C0A9CCEC7A130D53BAA0CE /* Targets Support Files */,
 			);
@@ -371,37 +324,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F56B9DCF4813C5598AAAB57AE816D513 /* WKCImageEditKit */ = {
+			isa = PBXGroup;
+			children = (
+				A2C3B1AA9B6391EADB15D1FC412ABCBC /* UIImage+Adjustment.h */,
+				6930E6514E4D7EA35A72BEE50F9D6ED5 /* UIImage+Adjustment.m */,
+				337DAED72D37E25D2537A1ACE62F521C /* UIImage+Blend.h */,
+				BCC980F8416202E5B04C53D37D4B9EEC /* UIImage+Blend.m */,
+				17D0A7C9EDD3960ADA6E8D5931D02A57 /* UIImage+Filter.h */,
+				F76B911060D0F26C8A0EDAC93775AF5F /* UIImage+Filter.m */,
+				B0A76B907FF3F09FE7FCAE522AABA19C /* UIImage+Flip.h */,
+				F0791CD48382007C602473D6832E61B3 /* UIImage+Flip.m */,
+				041A5DB2F6BCD3B71C3E53439F58E245 /* UIImage+OrienHandle.h */,
+				BC2345B155A710E29A7D72794ED117DE /* UIImage+OrienHandle.m */,
+				E84DD7B91C4A26D4570C4A0D304F6A2B /* UIImage+Resize.h */,
+				CF5D89533E8C3850C1C8008FAFB8B450 /* UIImage+Resize.m */,
+				CF5BC525D8646A58C6745ACA7E983419 /* WKCControlPointView.h */,
+				CDC5DA862A2AA8181059AA9120E0B03E /* WKCControlPointView.m */,
+				739F13781C5E6951D27D1BD8E3AA3CB4 /* WKCCutCornerView.h */,
+				876CFC1C4372819583AC9DA8A1D619D3 /* WKCCutCornerView.m */,
+				75178B0B2D775D0E761468EC3B7DA2F5 /* WKCCutCropAreaView.h */,
+				FDD1F3BCE2A11DA2AD0BF35762AAF545 /* WKCCutCropAreaView.m */,
+				7A68DAFA70986EA8E5077BFCE03EC9B9 /* WKCCutMidLineView.h */,
+				1802A33698A744FACFD64F1948077DAD /* WKCCutMidLineView.m */,
+				CC1094557DE21F6A6E7DA2C8C12C429F /* WKCCutView.h */,
+				B3583DF3E5746582B48E3A3DC35D5A25 /* WKCCutView.m */,
+				27DEE816A2E7635AD9EDFBFEEED9BDFB /* WKCDrawContentView.h */,
+				D65C68539035153947C4EE604084EE63 /* WKCDrawContentView.m */,
+				B7A57394083A0E2C98996DC79677637A /* WKCImageEditView.h */,
+				691C89C2DB2C4FE92A93E3492F8231AF /* WKCImageEditView.m */,
+				DFEC091C09B3178DD0AA860EA574E658 /* WKCSplineInterpolator.h */,
+				7AF046CAA981FFD9D17F53AE31DF2788 /* WKCSplineInterpolator.m */,
+				E4D7FF8A48D81553A1C6E8282283C27D /* WKCStcikerEditor.h */,
+				3423A411EBBC6DAF1FA5B82385526A56 /* WKCStcikerEditor.m */,
+				0F6E56B5B39BAA5914B1F4E062707765 /* WKCStickerGestureRecognizer.h */,
+				EFB70BCF9F04FADCF5FF71EB8207204B /* WKCStickerGestureRecognizer.m */,
+				0879F4269626B2D21C6D1919E84CECD5 /* WKCStickerItemView.h */,
+				49917DEA4C1DDCD4709F047E066F05E0 /* WKCStickerItemView.m */,
+				E8E03AA4B226AA7026121154DB69A56F /* WKCStickerView.h */,
+				DFC5B75CB217623537DB347B093FB348 /* WKCStickerView.m */,
+				6EB44C875C72FF2997A408F93FC5C219 /* WKCTextEditor.h */,
+				99D13FADAEE60EEA46D35F820954FDB9 /* WKCTextEditor.m */,
+				E30E644799CEB8543B64AB0D375C6104 /* WKCTextGestureRecognizer.h */,
+				67D47D2137BE601D3E8ABD5FCB9147F8 /* WKCTextGestureRecognizer.m */,
+				2E267B98ABA62CA43AD06DDBADE53F4D /* WKCTextItemView.h */,
+				B3D4983A894E9D3FCBA46B1961BE557D /* WKCTextItemView.m */,
+				465373227D1CF9CA37F2BF17422E8385 /* WKCToneCurveView.h */,
+				D2593F660E4BB6F5EA5E86FE8633F333 /* WKCToneCurveView.m */,
+				4EDCF9CFAC327C3A309B5EDFCC0CD1FB /* Support Files */,
+			);
+			name = WKCImageEditKit;
+			path = WKCImageEditKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2B47BC57E39D190F80F5188FBB8420E1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD4B62F0B8872359C6CB9A6DE9F9DA6F /* UIImage+Adjustment.h in Headers */,
-				AFCFE59CB8E269E01A4406E39E1BA4E3 /* UIImage+Filter.h in Headers */,
-				E0175DBE257C49DB4E43710ECA8EDDE8 /* UIImage+Flip.h in Headers */,
-				79DE6675D75B822BDC8507C7F9A81CF9 /* UIImage+OrienHandle.h in Headers */,
-				7033B082FF428079EE2F5A305ABEFA6B /* UIImage+Resize.h in Headers */,
-				EB99B36DE0E798C22C03963E37D36F3B /* WKCControlPointView.h in Headers */,
-				D87ED2104504AA0926DD1E31A88EB9C9 /* WKCCutCornerView.h in Headers */,
-				1E6A21E87C8969919F4523BF7C73A1B9 /* WKCCutCropAreaView.h in Headers */,
-				3251F4DD5A1F85A3AD7C03E9842448CD /* WKCCutMidLineView.h in Headers */,
-				F6912CC06AA8D06E345D7AFEE85DE97A /* WKCCutView.h in Headers */,
-				1241E7279830B537B38E3D6D099C0119 /* WKCDrawContentView.h in Headers */,
-				71CE0A0BB5DB3ECADFA58E6E2EFD5EAF /* WKCImageEditView.h in Headers */,
-				5CFC47F3EF40CC286D26897EBE356AF4 /* WKCSplineInterpolator.h in Headers */,
-				8A224994818B82827B4E1BE3AEAFA8EC /* WKCStcikerEditor.h in Headers */,
-				81DBAB0481BE9491C40978B470C0D9EA /* WKCStickerGestureRecognizer.h in Headers */,
-				BAD8B82BFF141C62802182181654D19C /* WKCStickerItemView.h in Headers */,
-				080E4BE02F132E026E9913CD9BDB2AFB /* WKCStickerView.h in Headers */,
-				79C0E1DA17185A94D4185B63CB1F11E9 /* WKCTextEditor.h in Headers */,
-				6F38BD2D9F28DF8A5E15A28B56B58BCB /* WKCTextGestureRecognizer.h in Headers */,
-				3DB3579843799F51AB21BA9B8D709648 /* WKCTextItemView.h in Headers */,
-				26A9052B370C530271622CD46188103D /* WKCToneCurveView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4EA97C10BD7F03288CB63E57CF0FB543 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +406,35 @@
 				7C31AFA9C95568E16B6911B670754372 /* View+MASAdditions.h in Headers */,
 				5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */,
 				24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248C5A01DF70C023AEB6E44A5E3A00E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0314D9DF8031DB606F6932C432EC0 /* UIImage+Adjustment.h in Headers */,
+				E85A7104B459D4851806E323312E6DF2 /* UIImage+Blend.h in Headers */,
+				70606CF051EB21A74261034418544FB8 /* UIImage+Filter.h in Headers */,
+				9C0F232016DACF24793D4B88872EF8E8 /* UIImage+Flip.h in Headers */,
+				82BCF4CB5B401A3E9A186B908E2B823B /* UIImage+OrienHandle.h in Headers */,
+				6CDE0BD0BC257651531430A3EEF8BB81 /* UIImage+Resize.h in Headers */,
+				80EBF3A62AD3D22DCBAE270213C9A3C1 /* WKCControlPointView.h in Headers */,
+				F533A17A912668EFB73F9DC890CF0613 /* WKCCutCornerView.h in Headers */,
+				9140CC4A98CCD6DEA790139D99D94583 /* WKCCutCropAreaView.h in Headers */,
+				B95FA45881FE212F981D4750000D6826 /* WKCCutMidLineView.h in Headers */,
+				0DDD47D69EE9991879EB1450FDC2D727 /* WKCCutView.h in Headers */,
+				B542161E20E8A708848A26333416AEB8 /* WKCDrawContentView.h in Headers */,
+				6BB8E92F6B81C2BE8678A42F6AA7EBFD /* WKCImageEditView.h in Headers */,
+				515FF9B5AECB654CA01CA8D4A3159AF0 /* WKCSplineInterpolator.h in Headers */,
+				BD58344DDC9F3D32A2E58950B2CB4DCE /* WKCStcikerEditor.h in Headers */,
+				DF9300C33A3E2EBB7B067788389E4775 /* WKCStickerGestureRecognizer.h in Headers */,
+				A611573DB29452E1AC955B2ECD562DC6 /* WKCStickerItemView.h in Headers */,
+				08A80AAFC52C00A4D54B2BD39CA894B2 /* WKCStickerView.h in Headers */,
+				B3004B6D9B39240A9DCB058D05DA642D /* WKCTextEditor.h in Headers */,
+				752D7A4E8039FB9442CEF6F39510A572 /* WKCTextGestureRecognizer.h in Headers */,
+				4C11D5B44E24B50F52F3A2A4CBB19779 /* WKCTextItemView.h in Headers */,
+				F53B4C9B654B53259B6623B890F1B180 /* WKCToneCurveView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,11 +479,11 @@
 		};
 		F31BE3105BDFA235B62FDAA119138BA9 /* WKCImageEditKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F6426A1516E710DA1125A91E698152C /* Build configuration list for PBXNativeTarget "WKCImageEditKit" */;
+			buildConfigurationList = AC30E689215B5F1D6E503200C480169C /* Build configuration list for PBXNativeTarget "WKCImageEditKit" */;
 			buildPhases = (
-				2B47BC57E39D190F80F5188FBB8420E1 /* Headers */,
-				A14AB166D1562F327A0B688E6F44BF94 /* Sources */,
-				92F11A4E9B92A5AD6F9E8EDB6264A034 /* Frameworks */,
+				C248C5A01DF70C023AEB6E44A5E3A00E /* Headers */,
+				6BDAB49A15B398D886AD87F635BAAB78 /* Sources */,
+				92A01B7CC84796A3FC322F19F5C6AFF0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -524,32 +531,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14AB166D1562F327A0B688E6F44BF94 /* Sources */ = {
+		6BDAB49A15B398D886AD87F635BAAB78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740C52AB2707B69DD35FC0394A221628 /* UIImage+Adjustment.m in Sources */,
-				F9915BF758A89D6F8BA8CD6D9B11802D /* UIImage+Filter.m in Sources */,
-				131EA74E94193FCA192A7E366EAA08D5 /* UIImage+Flip.m in Sources */,
-				7C45D5609CD380FA1ED49CC56F544B69 /* UIImage+OrienHandle.m in Sources */,
-				FFF7A978321CA319E7E96F9A653C0F8A /* UIImage+Resize.m in Sources */,
-				10024641DB68C0DBE3ED6402EBAB49F8 /* WKCControlPointView.m in Sources */,
-				30BB147C8661C7F631FAF9FB9FEBC3B5 /* WKCCutCornerView.m in Sources */,
-				F3BA1342C9FFB43B0CD39C740C3B7C99 /* WKCCutCropAreaView.m in Sources */,
-				3ADEB62EBA27591EE2356AC3120FBB34 /* WKCCutMidLineView.m in Sources */,
-				7F7BF4E54ACEE20CD9388D73711095AC /* WKCCutView.m in Sources */,
-				12F55431D5F26E2422C5C2DB440F991F /* WKCDrawContentView.m in Sources */,
-				E8DE852F57A08856F88692588BF438E4 /* WKCImageEditKit-dummy.m in Sources */,
-				3DF1CA369033A56EE9DE3DAE7B765C4B /* WKCImageEditView.m in Sources */,
-				1B39AC6F58BAA1AB1D6C5AF29611ADC8 /* WKCSplineInterpolator.m in Sources */,
-				9B99F63C71154D047A48E9D7126FFD6C /* WKCStcikerEditor.m in Sources */,
-				5D02D8F62A3353602DCAE1ACF7A4065D /* WKCStickerGestureRecognizer.m in Sources */,
-				3742E882FFCB0726E4B7906AC0C93243 /* WKCStickerItemView.m in Sources */,
-				E9B46EDE63EF132411A54F05DD0B6CDD /* WKCStickerView.m in Sources */,
-				8FF1E1CE8625337D40CA5972C06F2E9F /* WKCTextEditor.m in Sources */,
-				7F560B12407493644D006962319E6AEA /* WKCTextGestureRecognizer.m in Sources */,
-				40EBC9268B9C588640D73EB65728D9AB /* WKCTextItemView.m in Sources */,
-				0C0A8167A0F114A3C6FE15117C234BAA /* WKCToneCurveView.m in Sources */,
+				D894B24BBCDC8C46433332EDA552E75C /* UIImage+Adjustment.m in Sources */,
+				CA607247E640CA5EDCCD4936AD1DF6C2 /* UIImage+Blend.m in Sources */,
+				40AA2F9CC55E3897EDD99C64F977C586 /* UIImage+Filter.m in Sources */,
+				9868E1141C433B5EC5DADF74BCAAB56E /* UIImage+Flip.m in Sources */,
+				28D25B1DA516CFA685462DF69897738C /* UIImage+OrienHandle.m in Sources */,
+				256F98ADA1F2D0CFD339E28B6CF0F27A /* UIImage+Resize.m in Sources */,
+				36359BD8BCA41603E207110EB2984D0E /* WKCControlPointView.m in Sources */,
+				31178C7265BE96BFC0D18F558D562E39 /* WKCCutCornerView.m in Sources */,
+				1785FC3FE31ACAAFF214ACD2E1C9587B /* WKCCutCropAreaView.m in Sources */,
+				0D337AD5504206E7C013652357BC93C3 /* WKCCutMidLineView.m in Sources */,
+				0701BBA97B3867FDCA6E66E7E59DB994 /* WKCCutView.m in Sources */,
+				4015C0A64B2B5D07D456A6808A5D00CF /* WKCDrawContentView.m in Sources */,
+				716F9ACEC6FD5CC547F80FBF398DCBCF /* WKCImageEditKit-dummy.m in Sources */,
+				5E175DEB86FEF5FD9F482E0E9CA41A95 /* WKCImageEditView.m in Sources */,
+				E4EEFBEE99844B69A4A07C233ABD4A19 /* WKCSplineInterpolator.m in Sources */,
+				418854B14C4E982970AF2BA39BCDFBE4 /* WKCStcikerEditor.m in Sources */,
+				0DBA4046D8B86F30651A739FCE458C6B /* WKCStickerGestureRecognizer.m in Sources */,
+				8F8E6BBE95B9DB78DD6FB47FEAF9962D /* WKCStickerItemView.m in Sources */,
+				06B86DBC6641D449F5A0A29CDDCF39E1 /* WKCStickerView.m in Sources */,
+				A7AEB33B6D406D2ABD03DD553D46A2A4 /* WKCTextEditor.m in Sources */,
+				B7A7607ED56832DF07CEE7CE38BC7E0A /* WKCTextGestureRecognizer.m in Sources */,
+				FD8EBD312C25605E0E8458AB4CFFCB30 /* WKCTextItemView.m in Sources */,
+				1662339DBDA4A86032E9108A24E237FE /* WKCToneCurveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,31 +597,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06CB3CAD9625C67547390493F2992EB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E4CB9386B353F75A99F13F90E6C9540 /* WKCImageEditKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WKCImageEditKit/WKCImageEditKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WKCImageEditKit;
-				PRODUCT_NAME = WKCImageEditKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -671,6 +654,31 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		58182952BBB6394C20545EBDFCE80296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC7C0F3FA7EBCFCAD86F2BA993A5B6B /* WKCImageEditKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WKCImageEditKit/WKCImageEditKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WKCImageEditKit;
+				PRODUCT_NAME = WKCImageEditKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -738,30 +746,6 @@
 			};
 			name = Debug;
 		};
-		60002E7F5212842B8DBBC0D3E8F448D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E4CB9386B353F75A99F13F90E6C9540 /* WKCImageEditKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WKCImageEditKit/WKCImageEditKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WKCImageEditKit;
-				PRODUCT_NAME = WKCImageEditKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		9073D62C3904B0C3C3AC0FCCA2E7883D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFB79C1FEB5DB62C2A877AED8746877A /* Pods-default-WKCImageEditDemo.debug.xcconfig */;
@@ -786,7 +770,7 @@
 		};
 		9C3DCCF6B5839F21EB4AC097B12672C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146072A638B9D6B6BC91E47CFBA8870F /* Masonry.xcconfig */;
+			baseConfigurationReference = 5F0C4C46B94C5E233DB4DA1E04E8D27D /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -831,9 +815,33 @@
 			};
 			name = Release;
 		};
+		C03BDDFDD7FA7A95E36C944E6F846918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC7C0F3FA7EBCFCAD86F2BA993A5B6B /* WKCImageEditKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WKCImageEditKit/WKCImageEditKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WKCImageEditKit;
+				PRODUCT_NAME = WKCImageEditKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		D7A2ADF8E19405B820AE14A234B07C6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146072A638B9D6B6BC91E47CFBA8870F /* Masonry.xcconfig */;
+			baseConfigurationReference = 5F0C4C46B94C5E233DB4DA1E04E8D27D /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -875,11 +883,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F6426A1516E710DA1125A91E698152C /* Build configuration list for PBXNativeTarget "WKCImageEditKit" */ = {
+		AC30E689215B5F1D6E503200C480169C /* Build configuration list for PBXNativeTarget "WKCImageEditKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60002E7F5212842B8DBBC0D3E8F448D0 /* Debug */,
-				06CB3CAD9625C67547390493F2992EB5 /* Release */,
+				C03BDDFDD7FA7A95E36C944E6F846918 /* Debug */,
+				58182952BBB6394C20545EBDFCE80296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

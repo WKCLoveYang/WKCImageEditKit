@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - WKCImageEditKit (1.1.1)
+  - WKCImageEditKit (1.1.3)
 
 DEPENDENCIES:
   - Masonry
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  WKCImageEditKit: b002c3663b21139335b74b6753d5f2ea24ad51c9
+  WKCImageEditKit: 3f0cf0b6884de669df64dc1f462047ef39545efa
 
 PODFILE CHECKSUM: fcc0b2fa836b5608c5faccd0115c4a206dfba831
 

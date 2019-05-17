@@ -44,7 +44,7 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
 - (void)refreshTextString:(NSAttributedString *)textString;
 ```
 
- ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/text.png).
+ ![文本](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/text.png).
  
  
  ### Resize(尺寸调整)
@@ -53,7 +53,7 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
  ------------- | ------------- | -------------
  resizeImageSize | CGSize | 要更改的size
  
-  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/resize.png).
+  ![尺寸调整](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/resize.png).
   
   ### Adjustment(曝光、亮度等调节)
   
@@ -77,14 +77,14 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
   - (void)flipByDegrees:(CGFloat)degrees; // 按角度旋转 例如 90
 ```
 
-  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/flip.png).
+  ![翻转](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/flip.png).
   
   ### Filter(滤镜)
   
   ```swift
   - (void)filterWithType:(UIImageFilterType)type;
 ``` 
-  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/filter.png).
+  ![滤镜](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/filter.png).
   
   
   ### Sticker(贴纸)
@@ -103,7 +103,7 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
   stickerMaxScale | CGFloat | 最大比例, 默认2.0
   stickerLimitCount | NSInteger | 最多可以有几个贴纸, 默认5
   
-  ![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/sticker.png).
+  ![贴纸](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/sticker.png).
   
   ### Draw(画笔)
   
@@ -119,7 +119,7 @@ textLimitCount | NSInteger | 最多可以有几个文案, 默认5
   - (void)drawErase; //擦除功能开启
 ```
 
-![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/draw.png).
+![画笔](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/draw.png).
 
 ### ToneCurve(颜色曲线)
 
@@ -132,7 +132,7 @@ tonePointColor | UIColor | 点颜色, 默认黑色
 toneLineColor | UIColor | 线框颜色
 toneLineWidth | CGFloat | 线框宽度
 
-![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/tone.png).
+![ToneCurve](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/tone.png).
 
 ### Cut(裁剪)
 
@@ -158,7 +158,26 @@ cutCropAreaMidLineHeight | CGFloat | 边框每条边中间线的线宽
 cutCropAreaMidLineColor | UIColor | 边框每条边中间线的颜色
 cutMaskColor | UIColor | 裁剪区域的蒙板颜色
 
-![Alt text](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/cut.png).
+![裁剪](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/cut.png).
+
+
+### Blend(双重曝光)
+
+```
+//Blend双重曝光
+- (void)blendWithFront:(UIImage *)front
+alpha:(CGFloat)alpha
+blendMode:(WKCBlendMode)mode;
+```
+
+![双重曝光源图](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/blend_origin.png).
+
+![前后融合](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/blend_middle.png).
+
+![前景暗](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/blend_front_light.png).
+
+![突出前景](https://github.com/WKCLoveYang/WKCImageEditKit/raw/master/screenShort/blend_front.png).
+
 
 
 如果要只单独使用某个功能,可以单独将其提出. 具体的功能分类如下：
@@ -181,7 +200,7 @@ cutMaskColor | UIColor | 裁剪区域的蒙板颜色
 版本 | 功能
 ------------- | -------------
 1.1.1 | 项目初始化
-1.1.5 | 增加Blend双重曝光功能
+1.1.3 | 增加Blend双重曝光功能
 
 
 

@@ -706,6 +706,16 @@ WKCToneCurveViewDelegate>
 
 
 
+/**********************Blend*****************************/
+- (void)blendWithFront:(UIImage *)front
+                 alpha:(CGFloat)alpha
+             blendMode:(WKCBlendMode)mode
+{
+    self.contentImageView.image = [self.contentImageView.image
+                                   imageWithFront:front
+                                   alpha:alpha
+                                   blendMode:mode];
+}
 
 #pragma mark -🌲Property
 - (UIImageView *)contentImageView

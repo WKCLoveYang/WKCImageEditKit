@@ -367,15 +367,6 @@ WKCToneCurveViewDelegate>
     }
 }
 
-// 辞退键盘
-- (void)callBackKeyboard
-{
-    [self.currentTextItem resignKeyboard];
-}
-
-
-
-
 
 /**********************Resize*****************************/
 - (void)setResizeImageSize:(CGSize)resizeImageSize
@@ -735,7 +726,6 @@ WKCToneCurveViewDelegate>
 
 - (void)tapThisView
 {
-    if (self.currentTextItem) [self callBackKeyboard];
     
     for (UIView * sub in _contentImageView.subviews)
     {

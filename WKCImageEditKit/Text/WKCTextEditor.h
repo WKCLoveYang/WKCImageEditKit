@@ -66,8 +66,6 @@
 
 - (instancetype)initWithContentFrame:(CGRect)frame
                          controlSize:(CGSize)size;
-// 辞退键盘
-- (void)resignKeyboard;
 
 @end
 

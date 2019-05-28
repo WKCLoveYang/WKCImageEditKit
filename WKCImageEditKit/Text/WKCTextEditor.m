@@ -10,13 +10,12 @@
 #import "WKCTextGestureRecognizer.h"
 
 @interface WKCTextEditor()
-<UIGestureRecognizerDelegate,
-UITextViewDelegate>
+<UIGestureRecognizerDelegate>
 {
     CGSize _controlSize;
 }
 
-@property (nonatomic, strong) UITextView * content;
+@property (nonatomic, strong) UILabel * content;
 @property (nonatomic, strong) UIImageView * deleteControl;
 @property (nonatomic, strong) UIImageView * resizeControl;
 @property (nonatomic, strong) UIImageView * leftBottomControl;
@@ -45,14 +44,9 @@ UITextViewDelegate>
         [self wkc_setupSubviews];
         [self wkc_initShapeLayer];
         [self wkc_addGesture];
- 
+        
     }
     return self;
-}
-
-- (void)resignKeyboard
-{
-    [self.content resignFirstResponder];
 }
 
 - (void)setContentString:(NSAttributedString *)contentString
@@ -77,43 +71,13 @@ UITextViewDelegate>
     CGPathRelease(path);
 }
 
-#pragma mark -UITextViewDelegate
-- (void)textViewDidChange:(UITextView *)textView
-{
-    NSRange range = NSMakeRange(0, textView.text.length);
-    NSDictionary * dic = [_contentString attributesAtIndex:0 effectiveRange:&range];
-    
-    CGFloat currentWidth = [textView.text boundingRectWithSize:CGSizeMake(MAXFLOAT, 50) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil].size.width;
-    
-    CGFloat width = 0, height = 0;
-    
-    if (currentWidth < _textLimitWidth)
-    {
-        width = currentWidth + 20;
-        height = 50;
-    }
-    else
-    {
-        CGFloat currentHeight = [textView.text boundingRectWithSize:CGSizeMake(_textLimitWidth, MAXFLOAT) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil].size.height;
-        width = _textLimitWidth;
-        height = currentHeight + 20;
-    }
-    
-    self.bounds = CGRectMake(0, 0, width, height);
-}
-
 - (void)wkc_initPropertyWithFrame:(CGRect)frame
 {
-    _content = [[UITextView alloc] initWithFrame:CGRectMake(_controlSize.width / 2.0, _controlSize.height / 2.0, frame.size.width, frame.size.height)];
+    _content = [[UILabel alloc] initWithFrame:CGRectMake(_controlSize.width / 2.0 + 4, _controlSize.height / 2.0 + 4, frame.size.width - 8, frame.size.height - 8)];
     _content.backgroundColor = [UIColor clearColor];
-    _content.textColor = UIColor.blackColor;
-    _content.font = [UIFont boldSystemFontOfSize:18];
-    _content.showsVerticalScrollIndicator = NO;
-    _content.showsHorizontalScrollIndicator = NO;
-    _content.scrollEnabled = NO;
     _content.textAlignment = NSTextAlignmentCenter;
-    _content.layer.masksToBounds = YES;
-    _content.delegate = self;
+    _content.numberOfLines = 0;
+    _content.adjustsFontSizeToFitWidth = YES;
     
     _resizeControl = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_content.frame) - _controlSize.width / 2.0, CGRectGetMaxY(_content.frame) - _controlSize.height / 2.0, _controlSize.width, _controlSize.height)];
     _resizeControl.contentMode = UIViewContentModeScaleAspectFit;
@@ -144,6 +108,10 @@ UITextViewDelegate>
     _shapeLayer.position = CGPointMake(_content.frame.size.width / 2.0, _content.frame.size.height / 2.0);
     _shapeLayer.fillColor = UIColor.clearColor.CGColor;
     _shapeLayer.lineJoin = kCALineJoinRound;
+    
+    // 锯齿效果
+    _shapeLayer.allowsEdgeAntialiasing = YES;
+    _shapeLayer.lineDashPattern = @[@(5),@(3)];
     
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathAddRect(path, NULL, _content.frame);
@@ -221,7 +189,6 @@ UITextViewDelegate>
     if (_delegate && [_delegate respondsToSelector:@selector(textEditorDidTapContentView:)])
     {
         [_delegate textEditorDidTapContentView:self];
-        [_content becomeFirstResponder];
     }
     
     self.isControlActivity = YES;
@@ -311,7 +278,7 @@ UITextViewDelegate>
     targetPoint.x = MAX(0, targetPoint.x);
     targetPoint.y = MAX(0, targetPoint.y);
     targetPoint.x = MIN(self.superview.bounds.size.width, targetPoint.x);
-    targetPoint.y = MIN(self.superview.bounds.size.height, targetPoint.y);
+    targetPoint.y = MIN(self.superview.bounds.size.height - 100, targetPoint.y);
     
     [self setCenter:targetPoint];
     [gesture setTranslation:CGPointZero inView:[self superview]];
@@ -479,3 +446,4 @@ UITextViewDelegate>
 }
 
 @end
+
